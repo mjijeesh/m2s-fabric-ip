@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>User_Interfaces</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin User_Interfaces:GPIO_IN_9</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/User_Interfaces/pins/User_Interfaces:GPIO_IN_9</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin User_Interfaces:GPIO_IN_8</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/User_Interfaces/pins/User_Interfaces:GPIO_IN_8</crossprobe>
+  </drc>
+</drcreport>

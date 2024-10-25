@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\synlog\m2s_sys_top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CLK0_PAD</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0</data>
+<data>50.0 MHz</data>
+<data>80.3 MHz</data>
+<data>7.553</data>
+</row>
+<row>
+<data>m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>372.7 MHz</data>
+<data>17.317</data>
+</row>
+<row>
+<data>m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB</data>
+<data>12.5 MHz</data>
+<data>120.5 MHz</data>
+<data>35.849</data>
+</row>
+</report_table>

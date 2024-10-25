@@ -1,0 +1,27 @@
+@P:  Worst Slack : 7.553
+@P:  CLK0_PAD - Estimated Frequency : NA
+@P:  CLK0_PAD - Requested Frequency : 50.0 MHz
+@P:  CLK0_PAD - Estimated Period : NA
+@P:  CLK0_PAD - Requested Period : 20.000
+@P:  CLK0_PAD - Slack : NA
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 - Estimated Frequency : 80.3 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 - Requested Frequency : 50.0 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 - Estimated Period : 12.447
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 - Requested Period : 20.000
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 - Slack : 7.553
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 372.7 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 2.683
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 17.317
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB - Estimated Frequency : 120.5 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB - Requested Frequency : 12.5 MHz
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB - Estimated Period : 8.301
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB - Requested Period : 80.000
+@P:  m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB - Slack : 35.849
+@P: m2s_sys_top Part : m2s025vf400std
+@P: m2s_sys_top Register bits  : 930 
+@P: m2s_sys_top DSP Blocks  : 0
+@P: m2s_sys_top I/O primitives : 64
+@P: m2s_sys_top RAM64x18 :  6
+@P:  CPU Time : 0h:00m:04s

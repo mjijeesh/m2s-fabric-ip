@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Fri Oct 25 14:45:53 2024
+Project   :  C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+

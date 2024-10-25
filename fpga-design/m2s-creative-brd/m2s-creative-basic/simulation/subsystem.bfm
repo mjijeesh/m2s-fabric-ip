@@ -1,0 +1,24 @@
+#===========================================================
+# Created by Microsemi SmartDesign Fri Oct 25 14:59:01 2024
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap ddr_mss_sb_MSS_0 0x40020800;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+

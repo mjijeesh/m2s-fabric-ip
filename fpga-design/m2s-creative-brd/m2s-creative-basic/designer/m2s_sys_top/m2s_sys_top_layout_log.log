@@ -1,0 +1,82 @@
+INFO: Reading User SDC file C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\m2s_sys_top_derived_constraints.sdc.
+2 warnings found.
+Check logfile C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\placer_sdc_errors.log for details.
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\io\m2s025-creative-brd.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\fp\m2s_sys_top_derived_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 64 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.9.6 
+Design: m2s_sys_top                     Started: Fri Oct 25 15:00:30 2024
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 3 seconds
+Placement Runtime            : 15 seconds
+
+Placer completed successfully.
+
+Design: m2s_sys_top                     
+Finished: Fri Oct 25 15:01:08 2024
+Total CPU Time:     00:00:33            Total Elapsed Time: 00:00:38
+Total Memory Usage: 370.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\m2s_sys_topStarted: Fri Oct 25 15:01:12 2024
+
+
+Router completed successfully.
+
+Design: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\m2s_sys_top
+Finished: Fri Oct 25 15:01:27 2024
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
+Total Memory Usage: 998.8 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -0.066 ns
+
+Router 
+Design: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\m2s_sys_topStarted: Fri Oct 25 15:01:45 2024
+
+After loading previous routing information: Shorts = 0. Open nets = 2.
+
+Router completed successfully.
+
+Design: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\m2s_sys_top
+Finished: Fri Oct 25 15:01:56 2024
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 998.7 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1542 | 27696 | 5.57       |
+| DFF           | 1146 | 27696 | 4.14       |
+| I/O Register  | 0    | 408   | 0.00       |
+| Logic Element | 1656 | 27696 | 5.98       |
++---------------+------+-------+------------+
+

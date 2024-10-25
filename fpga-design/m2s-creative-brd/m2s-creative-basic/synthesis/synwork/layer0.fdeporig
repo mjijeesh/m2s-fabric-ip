@@ -1,0 +1,309 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\synthesis\\synwork\\m2s_sys_top_comp.srs|-top|work.m2s_sys_top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|CORETIMER_LIB|-lib|CORETIMER_LIB|-lib|work|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|work|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1508995828
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509001836
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1508995646
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508995328
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\COREGPIO_C1\\COREGPIO_C1_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1729847600
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\COREGPIO_C1\\COREGPIO_C1_0\\rtl\\vhdl\\core\\coregpio.vhd":1729847600
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\COREGPIO_C1\\COREGPIO_C1_0\\rtl\\vhdl\\core\\components.vhd":1729847600
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\COREGPIO_C1\\COREGPIO_C1.vhd":1729847600
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1729847748
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1729847748
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3.vhd":1729847748
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\components.vhd":1729847748
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreAPB3_C0\\CoreAPB3_C0.vhd":1729847748
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1729847640
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\coregpio.vhd":1729847640
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\components.vhd":1729847640
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0.vhd":1729847640
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer_pkg.vhd":1723632565
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer.vhd":1723632565
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreTimer_C0\\CoreTimer_C0.vhd":1729846660
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\Clock_gen.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\fifo_256x8_g4.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\Rx_async.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\Tx_async.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core\\core\\coreuart_pkg.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\CoreUART.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\CoreUARTapb.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vhdl\\core_obfuscated\\components.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0.vhd":1729846684
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi_clockmux.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\corespi_pkg.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi_chanctrl.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi_control.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi_fifo.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi_rf.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\spi.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vhdl\\core\\corespi.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CORESPI_C1\\CORESPI_C1.vhd":1729846857
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\SD_IF\\SD_IF.vhd":1729846861
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\CORESPI_C0\\CORESPI_C0.vhd":1729846847
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\spi_flash\\spi_flash.vhd":1729846852
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\User_Interfaces\\User_Interfaces.vhd":1729848091
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreConfigP\\7.1.100\\rtl\\vhdl\\core\\coreconfigp.vhd":1729846979
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1729846979
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1729846979
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss_sb\\CCC_0\\ddr_mss_sb_CCC_0_FCCC.vhd":1729846978
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1719403392
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss_sb\\FABOSC_0\\ddr_mss_sb_FABOSC_0_OSC.vhd":1729846980
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss_sb_MSS\\ddr_mss_sb_MSS_syn.vhd":1729846971
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss_sb_MSS\\ddr_mss_sb_MSS.vhd":1729846972
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss_sb\\ddr_mss_sb.vhd":1729846980
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\ddr_mss\\ddr_mss.vhd":1729847000
+#CUR:"C:\\jijeesh\\workspace.m2s\\m2s-fabric-ip\\fpga-design\\m2s-creative-brd\\m2s-creative-basic\\component\\work\\m2s_sys_top\\m2s_sys_top.vhd":1729848540
+0 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+1 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd" vhdl
+2 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\components.vhd" vhdl
+3 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1.vhd" vhdl
+4 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+5 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+6 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+7 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd" vhdl
+8 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd" vhdl
+9 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+10 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd" vhdl
+11 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd" vhdl
+12 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd" vhdl
+13 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd" vhdl
+14 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd" vhdl
+15 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreTimer_C0\CoreTimer_C0.vhd" vhdl
+16 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd" vhdl
+17 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\fifo_256x8_g4.vhd" vhdl
+18 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd" vhdl
+19 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd" vhdl
+20 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core\core\coreuart_pkg.vhd" vhdl
+21 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd" vhdl
+22 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd" vhdl
+23 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+24 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0.vhd" vhdl
+25 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_clockmux.vhd" vhdl
+26 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi_pkg.vhd" vhdl
+27 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd" vhdl
+28 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd" vhdl
+29 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_fifo.vhd" vhdl
+30 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd" vhdl
+31 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd" vhdl
+32 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi.vhd" vhdl
+33 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C1\CORESPI_C1.vhd" vhdl
+34 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\SD_IF\SD_IF.vhd" vhdl
+35 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C0\CORESPI_C0.vhd" vhdl
+36 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\spi_flash\spi_flash.vhd" vhdl
+37 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\User_Interfaces\User_Interfaces.vhd" vhdl
+38 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd" vhdl
+39 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+40 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+41 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\CCC_0\ddr_mss_sb_CCC_0_FCCC.vhd" vhdl
+42 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+43 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd" vhdl
+44 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS_syn.vhd" vhdl
+45 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS.vhd" vhdl
+46 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\ddr_mss_sb.vhd" vhdl
+47 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss\ddr_mss.vhd" vhdl
+48 "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\m2s_sys_top\m2s_sys_top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 -1
+3 1 2 
+4 -1
+5 -1
+6 4 5 
+7 -1
+8 6 7 
+9 -1
+10 9 
+11 -1
+12 10 11 
+13 -1
+14 13 
+15 14 
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 16 19 18 17 20 
+22 21 20 
+23 -1
+24 22 23 
+25 -1
+26 -1
+27 25 26 
+28 -1
+29 26 
+30 26 
+31 30 28 29 27 
+32 31 26 
+33 32 
+34 33 
+35 32 
+36 35 
+37 8 12 3 15 24 34 36 
+38 -1
+39 -1
+40 39 
+41 -1
+42 -1
+43 42 
+44 -1
+45 44 
+46 41 38 40 45 43 
+47 46 
+48 47 37 
+
+# Dependency Lists (Users Of)
+0 1 
+1 3 
+2 3 
+3 37 
+4 6 
+5 6 
+6 8 
+7 8 
+8 37 
+9 10 
+10 12 
+11 12 
+12 37 
+13 14 
+14 15 
+15 37 
+16 21 
+17 21 
+18 21 
+19 21 
+20 22 21 
+21 22 
+22 24 
+23 24 
+24 37 
+25 27 
+26 32 30 29 27 
+27 31 
+28 31 
+29 31 
+30 31 
+31 32 
+32 35 33 
+33 34 
+34 37 
+35 36 
+36 37 
+37 48 
+38 46 
+39 40 
+40 46 
+41 46 
+42 43 
+43 46 
+44 45 
+45 46 
+46 47 
+47 48 
+48 -1
+
+# Design Unit to File Association
+arch coregpio_lib coregpio_c1_coregpio_c1_0_coregpio rtl 1
+module coregpio_lib coregpio_c1_coregpio_c1_0_coregpio 1
+arch work coregpio_c1 rtl 3
+module work coregpio_c1 3
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 4
+module coreapb3_lib coreapb3_muxptob3 4
+arch coreapb3_lib coreapb3_iaddr_reg rtl 5
+module coreapb3_lib coreapb3_iaddr_reg 5
+arch coreapb3_lib coreapb3 coreapb3_arch 6
+module coreapb3_lib coreapb3 6
+arch work coreapb3_c0 rtl 8
+module work coreapb3_c0 8
+arch coregpio_lib coregpio_c0_coregpio_c0_0_coregpio rtl 10
+module coregpio_lib coregpio_c0_coregpio_c0_0_coregpio 10
+arch work coregpio_c0 rtl 12
+module work coregpio_c0 12
+arch coretimer_lib coretimer synth 14
+module coretimer_lib coretimer 14
+arch work coretimer_c0 rtl 15
+module work coretimer_c0 15
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_clock_gen cuarti 16
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_clock_gen 16
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_ram128x8_pa4 cuartlol 17
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_ram128x8_pa4 17
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_fifo_ctrl_128 cuartlol 17
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_fifo_ctrl_128 17
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_fifo_256x8 cuartlol 17
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_fifo_256x8 17
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_rx_async cuartlol 18
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_rx_async 18
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_tx_async cuartlol 19
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_tx_async 19
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_coreuart cuartlol 21
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_coreuart 21
+arch coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_coreuartapb cuartlol 22
+module coreuartapb_lib coreuartapb_c0_coreuartapb_c0_0_coreuartapb 22
+arch work coreuartapb_c0 rtl 24
+module work coreuartapb_c0 24
+arch corespi_lib spi_clockmux trans 25
+module corespi_lib spi_clockmux 25
+arch corespi_lib spi_chanctrl trans 27
+module corespi_lib spi_chanctrl 27
+arch corespi_lib spi_control trans 28
+module corespi_lib spi_control 28
+arch corespi_lib spi_fifo trans 29
+module corespi_lib spi_fifo 29
+arch corespi_lib spi_rf trans 30
+module corespi_lib spi_rf 30
+arch corespi_lib spi trans 31
+module corespi_lib spi 31
+arch corespi_lib corespi trans 32
+module corespi_lib corespi 32
+arch work corespi_c1 rtl 33
+module work corespi_c1 33
+arch work sd_if rtl 34
+module work sd_if 34
+arch work corespi_c0 rtl 35
+module work corespi_c0 35
+arch work spi_flash rtl 36
+module work spi_flash 36
+arch work user_interfaces rtl 37
+module work user_interfaces 37
+arch work coreconfigp rtl 38
+module work coreconfigp 38
+arch work coreresetp_pcie_hotreset rtl 39
+module work coreresetp_pcie_hotreset 39
+arch work coreresetp rtl 40
+module work coreresetp 40
+arch work ddr_mss_sb_ccc_0_fccc def_arch 41
+module work ddr_mss_sb_ccc_0_fccc 41
+arch work xtlosc_fab def_arch 42
+module work xtlosc_fab 42
+arch work rcosc_25_50mhz_fab def_arch 42
+module work rcosc_25_50mhz_fab 42
+arch work rcosc_1mhz_fab def_arch 42
+module work rcosc_1mhz_fab 42
+arch work xtlosc def_arch 42
+module work xtlosc 42
+arch work rcosc_25_50mhz def_arch 42
+module work rcosc_25_50mhz 42
+arch work rcosc_1mhz def_arch 42
+module work rcosc_1mhz 42
+arch work ddr_mss_sb_fabosc_0_osc def_arch 43
+module work ddr_mss_sb_fabosc_0_osc 43
+arch work mss_025 def_arch 44
+module work mss_025 44
+arch work ddr_mss_sb_mss rtl 45
+module work ddr_mss_sb_mss 45
+arch work ddr_mss_sb rtl 46
+module work ddr_mss_sb 46
+arch work ddr_mss rtl 47
+module work ddr_mss 47
+arch work m2s_sys_top rtl 48
+module work m2s_sys_top 48

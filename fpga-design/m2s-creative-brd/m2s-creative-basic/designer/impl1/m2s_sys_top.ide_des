@@ -1,0 +1,12 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\impl1\m2s_sys_top.adb"
+LIST SOURCE_FILES
+VALUE "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\io\m2s025-creative-brd.pdc;pdc"
+VALUE "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\m2s_sys_top_derived_constraints.sdc;sdc"
+VALUE "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\fp\m2s_sys_top_derived_constraints.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\m2s_sys_top_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

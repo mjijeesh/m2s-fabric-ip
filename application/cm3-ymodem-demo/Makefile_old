@@ -1,0 +1,53 @@
+## -------------------------------------------
+## Specify the Platform Folder where the Cortex-m3 system files and the middleware fiels are located
+#CM3_HOME         ?= .
+#CM3_HOME         := c:/ssh/arch/cortex-m3
+CM3_HOME         := c:/git/arch/cortex-m3
+MIDDLEWARE_HOME  := $(CM3_HOME)/middleware
+RTOS_HOME        := C:/Git/freertos/FreeRTOS
+LWIPDIR          := $(MIDDLEWARE_HOME)/ethernet/lwip/src
+#RTOS_HOME  ?= $(RV32_HOME)/middleware/rtos/FreeRTOS_v202112
+
+# ---- Application Name and Board Settings ---------------
+
+
+TARGET_NAME    ?= cm3-coreuart-downloader
+TARGET_BOARD   ?= m2s025-creative-board
+
+#middleware library selections
+
+UART_YMODEM    := YES
+SPI_FLASH      := MICROCHIP_SST26VF
+USE_SPI_SDCARD := YES
+APP_HOME       ?= src
+
+# provide the linker fil path here, else use the default linker file
+#LDFILE    ?= $(ARCH_HOME)/boards/$(TARGET_BOARD)/platform_config/linker/miv-rv32-ram.ld
+LDFILE      = $(CM3_HOME)/platform/linker/debug-in-microsemi-smartfusion2-sram.ld
+
+
+USER_FLAGS ?=
+              
+
+# user flags needed for freertos 
+#USER_FLAGS += -D USE_FREERTOS \
+               -D FREERTOS_DEMO_FULL \
+       	       -D FREERTOS_PLUS_CLI
+#------------------------------------------------------------
+# Application Source Files
+#------------------------------------------------------------
+       
+
+C_SRCS += $(APP_HOME)/uart_download_app.c
+
+ASM_SRCS += $(MIDDLEWARE_HOME)/boot/bx_user_code_ddr.S
+#APP_SRC += $(APP_HOME)/main.c
+
+INCS  +=  -I $(APP_HOME)
+INCS  +=  -I $(MIDDLEWARE_HOME)
+INCS  +=  -I $(CM3_HOME)/boards/$(TARGET_BOARD)/fpga_design_config
+        
+
+	
+include $(CM3_HOME)/platform/makefile/cortex-m3.mk
+

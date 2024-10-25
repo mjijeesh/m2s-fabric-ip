@@ -1,0 +1,19 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Fri Oct 25 14:30:59 2024
+Project   :  C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic
+Component :  CORESPI_C1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/corespi.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/corespi_pkg.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi_chanctrl.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi_clockmux.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi_control.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi_fifo.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vhdl/core/spi_rf.vhd
+    C:/jijeesh/workspace.m2s/m2s-fabric-ip/fpga-design/m2s-creative-brd/m2s-creative-basic/component/work/CORESPI_C1/CORESPI_C1.vhd
+

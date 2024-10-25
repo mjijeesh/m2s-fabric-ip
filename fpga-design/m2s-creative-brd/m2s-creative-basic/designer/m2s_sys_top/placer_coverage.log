@@ -1,0 +1,2 @@
+Warning: SDC0062: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\m2s_sys_top_derived_constraints.sdc:23: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 
+Warning: SDC0062: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\constraint\m2s_sys_top_derived_constraints.sdc:24: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 

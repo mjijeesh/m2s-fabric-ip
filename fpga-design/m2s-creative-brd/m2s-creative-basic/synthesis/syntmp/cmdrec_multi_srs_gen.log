@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.m2s_sys_top  -multisrs  C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\synwork\m2s_sys_top_comp.srs  -osyn  C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\synwork\m2s_sys_top_mult.srs  -log  C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\synlog\m2s_sys_top_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.m2s_sys_top -multisrs ..\synwork\m2s_sys_top_comp.srs -osyn ..\synwork\m2s_sys_top_mult.srs -log ..\synlog\m2s_sys_top_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\m2s_sys_top_comp.srs|io:i|time:1729848599|size:236437|exec:0|csum:CA4400880B072B7E1EF913C087624927
+file:..\synwork\m2s_sys_top_mult.srs|io:o|time:1729848600|size:7257|exec:0|csum:
+file:..\synlog\m2s_sys_top_multi_srs_gen.srr|io:o|time:1729848600|size:563|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508995612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508995884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

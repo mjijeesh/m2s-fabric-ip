@@ -1,0 +1,554 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\m2s_sys_top\m2s_sys_top.vhd":17:7:17:17|Top entity is set to m2s_sys_top.
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\misc.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\fifo_256x8_g4.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core\core\coreuart_pkg.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\components.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_clockmux.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi_pkg.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\CCC_0\ddr_mss_sb_CCC_0_FCCC.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS_syn.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreTimer_C0\CoreTimer_C0.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_fifo.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C1\CORESPI_C1.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\SD_IF\SD_IF.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C0\CORESPI_C0.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\spi_flash\spi_flash.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\User_Interfaces\User_Interfaces.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\ddr_mss_sb.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss\ddr_mss.vhd changed - recompiling
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\m2s_sys_top\m2s_sys_top.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\m2s_sys_top\m2s_sys_top.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\m2s_sys_top\m2s_sys_top.vhd":17:7:17:17|Synthesizing work.m2s_sys_top.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\User_Interfaces\User_Interfaces.vhd":17:7:17:21|Synthesizing work.user_interfaces.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\spi_flash\spi_flash.vhd":17:7:17:15|Synthesizing work.spi_flash.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C0\CORESPI_C0.vhd":19:7:19:16|Synthesizing work.corespi_c0.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi.vhd":30:7:30:13|Synthesizing corespi_lib.corespi.trans.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd":32:7:32:9|Synthesizing corespi_lib.spi.trans.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":37:7:37:18|Synthesizing corespi_lib.spi_chanctrl.trans.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":915:84:915:91|Signal stxs_oen in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":252:10:252:20|Signal resetn_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":253:10:253:20|Signal resetn_rx_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":259:10:259:34|Signal stxs_txready_at_ssel_temp is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_clockmux.vhd":27:7:27:18|Synthesizing corespi_lib.spi_clockmux.trans.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_clockmux.vhd":46:9:46:22|OTHERS clause is not synthesized.
+Post processing for corespi_lib.spi_clockmux.trans
+Post processing for corespi_lib.spi_chanctrl.trans
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":1008:8:1008:9|Pruning unused register msrx_async_reset_ok_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning unused register stxs_oen_10. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":784:6:784:7|Pruning unused register stxs_txready_at_ssel_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":766:6:766:7|Pruning unused register resetn_rx_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":766:6:766:7|Pruning unused register resetn_rx_d1_2. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":1188:8:1188:9|Pruning unused bits 5 to 3 of msrxp_frames_5(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":292:8:292:9|Pruning unused bits 15 to 8 of spi_clk_count_6(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_fifo.vhd":32:7:32:14|Synthesizing corespi_lib.spi_fifo.trans.
+Post processing for corespi_lib.spi_fifo.trans
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd":36:7:36:17|Synthesizing corespi_lib.spi_control.trans.
+Post processing for corespi_lib.spi_control.trans
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":34:7:34:12|Synthesizing corespi_lib.spi_rf.trans.
+Post processing for corespi_lib.spi_rf.trans
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":106:8:106:9|Optimizing register bit control2(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":106:8:106:9|Pruning register bit 3 of control2(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for corespi_lib.spi.trans
+Post processing for corespi_lib.corespi.trans
+Post processing for work.corespi_c0.rtl
+Post processing for work.spi_flash.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\SD_IF\SD_IF.vhd":17:7:17:11|Synthesizing work.sd_if.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CORESPI_C1\CORESPI_C1.vhd":19:7:19:16|Synthesizing work.corespi_c1.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\corespi.vhd":30:7:30:13|Synthesizing corespi_lib.corespi.trans.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd":32:7:32:9|Synthesizing corespi_lib.spi.trans.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":37:7:37:18|Synthesizing corespi_lib.spi_chanctrl.trans.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":915:84:915:91|Signal stxs_oen in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":252:10:252:20|Signal resetn_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":253:10:253:20|Signal resetn_rx_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":259:10:259:34|Signal stxs_txready_at_ssel_temp is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corespi_lib.spi_chanctrl.trans
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":1008:8:1008:9|Pruning unused register msrx_async_reset_ok_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning unused register stxs_oen_10. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":784:6:784:7|Pruning unused register stxs_txready_at_ssel_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":766:6:766:7|Pruning unused register resetn_rx_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":766:6:766:7|Pruning unused register resetn_rx_d1_2. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":1188:8:1188:9|Pruning unused bits 5 to 3 of msrxp_frames_5(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":292:8:292:9|Pruning unused bits 15 to 8 of spi_clk_count_6(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":34:7:34:12|Synthesizing corespi_lib.spi_rf.trans.
+Post processing for corespi_lib.spi_rf.trans
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":106:8:106:9|Optimizing register bit control2(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":106:8:106:9|Pruning register bit 3 of control2(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for corespi_lib.spi.trans
+Post processing for corespi_lib.corespi.trans
+Post processing for work.corespi_c1.rtl
+Post processing for work.sd_if.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0.vhd":20:7:20:20|Synthesizing work.coreuartapb_c0.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":17:7:17:49|Synthesizing coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_coreuartapb.cuartlol.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":237:0:237:8|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":260:0:260:8|Removing redundant assignment.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Signal cuartilll is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":17:7:17:46|Synthesizing coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_coreuart.cuartlol.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":265:18:265:25|Signal cuartooi in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":265:27:265:34|Signal cuartio1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":396:0:396:13|OTHERS clause is not synthesized.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":451:0:451:7|Removing redundant assignment.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:46|Synthesizing coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_rx_async.cuartlol.
+@N: CD233 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":42:15:42:16|Using sequential encoding for type cuartol0i.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":206:0:206:8|Removing redundant assignment.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":231:0:231:13|OTHERS clause is not synthesized.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:8|Removing redundant assignment.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":295:0:295:13|OTHERS clause is not synthesized.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":386:0:386:13|OTHERS clause is not synthesized.
+Post processing for coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_rx_async.cuartlol
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":399:0:399:1|Sharing sequential element CUARTO01i. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:46|Synthesizing coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_tx_async.cuartlol.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":258:0:258:8|Removing redundant assignment.
+Post processing for coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_tx_async.cuartlol
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Optimizing register bit CUARToil0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Pruning unused register CUARToil0. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:47|Synthesizing coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_clock_gen.cuarti.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":36:7:36:13|Signal cuartli is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_clock_gen.cuarti
+Post processing for coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_coreuart.cuartlol
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":440:0:440:1|Pruning unused register CUARTli0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":416:0:416:1|Pruning unused register CUARTII1_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":402:0:402:1|Pruning unused register CUARTOOI_5(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":368:0:368:1|Pruning unused register CUARTo01_4(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":353:0:353:1|Pruning unused register CUARTol0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":353:0:353:1|Pruning unused register CUARTll0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":338:0:338:1|Pruning unused register CUARTo1i_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":338:0:338:1|Pruning unused register CUARTL1I_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":246:0:246:1|Pruning unused register CUARTOII_4. Make sure that there are no unused intermediate registers.
+Post processing for coreuartapb_lib.coreuartapb_c0_coreuartapb_c0_0_coreuartapb.cuartlol
+@W: CL252 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 0 of signal CUARTILLL is floating -- simulation mismatch possible.
+@W: CL252 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 1 of signal CUARTILLL is floating -- simulation mismatch possible.
+@W: CL252 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":81:7:81:15|Bit 2 of signal CUARTILLL is floating -- simulation mismatch possible.
+Post processing for work.coreuartapb_c0.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreTimer_C0\CoreTimer_C0.vhd":19:7:19:18|Synthesizing work.coretimer_c0.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":29:7:29:15|Synthesizing coretimer_lib.coretimer.synth.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":323:24:323:28|Removing redundant assignment.
+Post processing for coretimer_lib.coretimer.synth
+Post processing for work.coretimer_c0.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1.vhd":20:7:20:17|Synthesizing work.coregpio_c1.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":29:7:29:40|Synthesizing coregpio_lib.coregpio_c1_coregpio_c1_0_coregpio.rtl.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":969:23:969:27|Signal paddr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":373:9:373:19|Signal io_num_comp is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coregpio_lib.coregpio_c1_coregpio_c1_0_coregpio.rtl
+Post processing for work.coregpio_c1.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd":20:7:20:17|Synthesizing work.coregpio_c0.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":29:7:29:40|Synthesizing coregpio_lib.coregpio_c0_coregpio_c0_0_coregpio.rtl.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":595:16:595:23|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":622:16:622:24|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@W: CD434 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":969:23:969:27|Signal paddr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":373:9:373:19|Signal io_num_comp is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coregpio_lib.coregpio_c0_coregpio_c0_0_coregpio.rtl
+Post processing for work.coregpio_c0.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":20:7:20:17|Synthesizing work.coreapb3_c0.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD638 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Post processing for work.coreapb3_c0.rtl
+Post processing for work.user_interfaces.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss\ddr_mss.vhd":17:7:17:13|Synthesizing work.ddr_mss.rtl.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\ddr_mss_sb.vhd":17:7:17:16|Synthesizing work.ddr_mss_sb.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":8:7:8:29|Synthesizing work.ddr_mss_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+Post processing for work.xtlosc.def_arch
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.ddr_mss_sb_fabosc_0_osc.def_arch
+@W: CL240 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL168 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":66:4:66:11|Removing instance I_XTLOSC because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS.vhd":17:7:17:20|Synthesizing work.ddr_mss_sb_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box.
+Post processing for smartfusion2.outbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box.
+Post processing for smartfusion2.outbuf_diff.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":526:10:526:19|Synthesizing smartfusion2.bibuf_diff.syn_black_box.
+Post processing for smartfusion2.bibuf_diff.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box.
+Post processing for smartfusion2.inbuf.syn_black_box
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_025.def_arch.
+Post processing for work.mss_025.def_arch
+Post processing for work.ddr_mss_sb_mss.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+Post processing for work.coreresetp.rtl
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl.
+Post processing for work.coreconfigp.rtl
+@N: CD630 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\CCC_0\ddr_mss_sb_CCC_0_FCCC.vhd":8:7:8:27|Synthesizing work.ddr_mss_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.ddr_mss_sb_ccc_0_fccc.def_arch
+Post processing for work.ddr_mss_sb.rtl
+Post processing for work.ddr_mss.rtl
+Post processing for work.m2s_sys_top.rtl
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 27 to 16 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":107:0:107:7|Input PRDATAS0 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":124:0:124:7|Input PREADYS0 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":141:0:141:8|Input PSLVERRS0 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CL134 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":523:8:523:9|Found RAM CONFIG_reg, depth=8, width=8
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":174:4:174:9|Input port bits 31 to 8 of pwdata(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL134 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":523:8:523:9|Found RAM CONFIG_reg, depth=8, width=8
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\COREGPIO_C1\COREGPIO_C1_0\rtl\vhdl\core\coregpio.vhd":174:4:174:9|Input port bits 31 to 8 of pwdata(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":21:0:21:16|Input baud_val_fraction is unused.
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":118:0:118:1|Trying to extract state machine for register CUARTlol0.
+Extracted state machine for register CUARTlol0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTO1L is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTL11 is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":25:0:25:7|Input CUARTI11 is unused.
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":243:0:243:1|Trying to extract state machine for register CUARTo01.
+Extracted state machine for register CUARTo01
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vhdl\core_obfuscated\CoreUARTapb.vhd":29:0:29:4|Input port bits 1 to 0 of paddr(4 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":55:6:55:17|Input tx_fifo_read is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":57:6:57:17|Input rx_fifo_full is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":58:6:58:22|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":60:6:60:23|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":62:6:62:22|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":63:6:63:18|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":64:6:64:23|Input tx_fifo_empty_next is unused.
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Optimizing register bit stxs_bitsel(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning register bit 4 of stxs_bitsel(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Optimizing register bit stxs_bitsel(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning register bit 3 of stxs_bitsel(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":412:8:412:9|Trying to extract state machine for register mtx_state.
+Extracted state machine for register mtx_state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0111
+   1000
+   1001
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":61:6:61:17|Input txfifo_count is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":66:6:66:17|Input rxfifo_count is unused.
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd":49:6:49:10|Input port bits 1 to 0 of paddr(6 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":47:6:47:11|Input port bits 31 to 8 of wrdata(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":55:6:55:17|Input tx_fifo_read is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":57:6:57:17|Input rx_fifo_full is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":58:6:58:22|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":60:6:60:23|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":62:6:62:22|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":63:6:63:18|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_rf.vhd":64:6:64:23|Input tx_fifo_empty_next is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd":46:6:46:15|Input cfg_master is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd":47:6:47:18|Input rx_fifo_empty is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_control.vhd":48:6:48:18|Input tx_fifo_empty is unused.
+@N: CL134 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_fifo.vhd":84:8:84:9|Found RAM fifo_mem_q, depth=32, width=1
+@N: CL134 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_fifo.vhd":84:8:84:9|Found RAM fifo_mem_q, depth=32, width=8
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Optimizing register bit stxs_bitsel(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning register bit 4 of stxs_bitsel(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Optimizing register bit stxs_bitsel(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":800:8:800:9|Pruning register bit 3 of stxs_bitsel(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":412:8:412:9|Trying to extract state machine for register mtx_state.
+Extracted state machine for register mtx_state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0111
+   1000
+   1001
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":61:6:61:17|Input txfifo_count is unused.
+@N: CL159 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi_chanctrl.vhd":66:6:66:17|Input rxfifo_count is unused.
+@W: CL246 :"C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vhdl\core\spi.vhd":49:6:49:10|Input port bits 1 to 0 of paddr(6 downto 0) are unused. Assign logic for all port bits or change the input port size.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 120MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 25 14:59:58 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+File C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 77MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 25 14:59:59 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 25 14:59:59 2024
+
+###########################################################]

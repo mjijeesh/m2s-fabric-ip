@@ -1,0 +1,144 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.9 SP6 11.9.6.7
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF
+
+# Date generated: Fri Oct 25 14:57:51 2024 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io CLK0_PAD       \
+    -pinname H16      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPIO_0_LED0     \
+    -pinname K16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_0_SW2     \
+    -pinname H12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPIO_1_LED1     \
+    -pinname N16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_1_SW3     \
+    -pinname H13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPIO_2_SD_CS    \
+    -pinname T12       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+set_io GPIO_2_SD_CS    \
+    -pinname T12       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+
+set_io SD_SCLK         \
+    -pinname R12       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io SD_SDI         \
+    -pinname R13      \
+    -fixed yes        \
+    -iostd LVCMOS33   \
+    -DIRECTION INPUT
+
+
+set_io SD_SDO          \
+    -pinname T13       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_SCLK  \
+    -pinname J14       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_SDI  \
+    -pinname J13      \
+    -fixed yes        \
+    -iostd LVCMOS33   \
+    -DIRECTION INPUT
+
+
+set_io SPI_FLASH_SDO   \
+    -pinname K12       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_SS    \
+    -pinname J12       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io UART_RXD       \
+    -pinname H3       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io UART_TXD        \
+    -pinname G3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

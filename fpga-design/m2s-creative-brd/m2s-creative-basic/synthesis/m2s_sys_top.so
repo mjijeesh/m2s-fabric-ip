@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>m2s_sys_top</design>
+	<target_edif>C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\synthesis\m2s_sys_top.edn</target_edif>
+</SynplifyOutput>

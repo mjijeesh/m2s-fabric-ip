@@ -1,0 +1,10 @@
+Software Version: 11.9.6.7
+Opened 'C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\m2s_sys_top_fp\m2s_sys_top.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic\designer\m2s_sys_top\3fbeafe5-858d-4660-858d-7660858d7660.pdb' has been loaded successfully.
+DESIGN : m2s_sys_top;  CHECKSUM : 8741;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

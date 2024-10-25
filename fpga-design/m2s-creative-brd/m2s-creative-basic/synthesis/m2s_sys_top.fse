@@ -1,0 +1,88 @@
+
+fsm_encoding {2851785171} sequential
+
+fsm_state_encoding {2851785171} s0 {00}
+
+fsm_state_encoding {2851785171} s1 {01}
+
+fsm_state_encoding {2851785171} s2 {10}
+
+fsm_registers {2851785171} {state[1]}  {state[0]} 
+
+fsm_encoding {541059810596} onehot
+
+fsm_state_encoding {541059810596} s0 {0000001}
+
+fsm_state_encoding {541059810596} s1 {0000010}
+
+fsm_state_encoding {541059810596} s2 {0000100}
+
+fsm_state_encoding {541059810596} s3 {0001000}
+
+fsm_state_encoding {541059810596} s4 {0010000}
+
+fsm_state_encoding {541059810596} s5 {0100000}
+
+fsm_state_encoding {541059810596} s6 {1000000}
+
+fsm_registers {541059810596} {sm0_state[0]}  {sm0_state[1]}  {sm0_state[2]}  {sm0_state[3]}  {sm0_state[4]}  {sm0_state[5]}  {sm0_state[6]} 
+
+fsm_encoding {2211801187} onehot
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000000 {000001}
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000001 {000010}
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000010 {000100}
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000011 {001000}
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000100 {010000}
+
+fsm_state_encoding {2211801187} 00000000000000000000000000000101 {100000}
+
+fsm_registers {2211801187} {CUARTlol0[0]}  {CUARTlol0[1]}  {CUARTlol0[2]}  {CUARTlol0[3]}  {CUARTlol0[4]}  {CUARTlol0[5]} 
+
+fsm_encoding {2124302438} sequential
+
+fsm_state_encoding {2124302438} cuartil0 {00}
+
+fsm_state_encoding {2124302438} cuartll0i {01}
+
+fsm_state_encoding {2124302438} cuartil0i {10}
+
+fsm_state_encoding {2124302438} cuartoi0i {11}
+
+fsm_registers {2124302438} {CUARTo01[1]}  {CUARTo01[0]} 
+
+fsm_encoding {4441284129} onehot
+
+fsm_state_encoding {4441284129} mtx_idle1 {000001}
+
+fsm_state_encoding {4441284129} mtx_idle2 {000010}
+
+fsm_state_encoding {4441284129} mtx_motstart {000100}
+
+fsm_state_encoding {4441284129} mtx_shift1 {001000}
+
+fsm_state_encoding {4441284129} mtx_shift2 {010000}
+
+fsm_state_encoding {4441284129} mtx_end {100000}
+
+fsm_registers {4441284129} {mtx_state[0]}  {mtx_state[1]}  {mtx_state[2]}  {mtx_state[3]}  {mtx_state[4]}  {mtx_state[5]} 
+
+fsm_encoding {44412841210} onehot
+
+fsm_state_encoding {44412841210} mtx_idle1 {000001}
+
+fsm_state_encoding {44412841210} mtx_idle2 {000010}
+
+fsm_state_encoding {44412841210} mtx_motstart {000100}
+
+fsm_state_encoding {44412841210} mtx_shift1 {001000}
+
+fsm_state_encoding {44412841210} mtx_shift2 {010000}
+
+fsm_state_encoding {44412841210} mtx_end {100000}
+
+fsm_registers {44412841210} {mtx_state[0]}  {mtx_state[1]}  {mtx_state[2]}  {mtx_state[3]}  {mtx_state[4]}  {mtx_state[5]} 

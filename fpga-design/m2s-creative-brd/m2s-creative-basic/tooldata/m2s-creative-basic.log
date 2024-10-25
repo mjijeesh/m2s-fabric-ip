@@ -1,0 +1,16 @@
+Project Name: m2s-creative-basic
+Location: C:\jijeesh\workspace.m2s\m2s-fabric-ip\fpga-design\m2s-creative-brd\m2s-creative-basic
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-VF256
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

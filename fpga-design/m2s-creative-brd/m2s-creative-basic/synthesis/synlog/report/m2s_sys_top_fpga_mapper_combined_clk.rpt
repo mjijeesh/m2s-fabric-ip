@@ -1,0 +1,27 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 97 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 841 clock pin(s) of sequential element(s)
+0 instances converted, 841 sequential instances remain driven by gated/generated clocks
+
+================================================================================== Non-Gated/Non-Generated Clocks ==================================================================================
+Clock Tree ID     Driving Element                                                      Drive Element Type                     Fanout     Sample Instance                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       m2s_creative_demo_0.ddr_mss_sb_0.ddr_mss_sb_MSS_0.MSS_ADLIB_INST     clock definition on MSS_025            75         m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.INIT_DONE_q2
+@K:CKID0003       m2s_creative_demo_0.ddr_mss_sb_0.FABOSC_0.I_RCOSC_25_50MHZ           clock definition on RCOSC_25_50MHZ     22         m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_ddr[13]
+====================================================================================================================================================================================================
+========================================================================================================================================= Gated/Generated Clocks ==========================================================================================================================================
+Clock Tree ID     Driving Element                                     Drive Element Type     Fanout     Sample Instance                                                      Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST     CCC                    841        m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif3_spll_lock_q2     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+===========================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

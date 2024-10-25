@@ -1,0 +1,29 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 SP6 11.9.6.7
+
+# Design Name: m2s_sys_top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Fri Oct 25 14:57:51 2024 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+define_region -name auto_coreconfigp -type inclusive -color 2147442270 456 75 623 131
+assign_region auto_coreconfigp m2s_creative_demo_0/ddr_mss_sb_0/CORECONFIGP_0
+
+#
+# Core cell constraints
+#
+
