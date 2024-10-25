@@ -1,3 +1,19 @@
+
+Ymodem Branch
+--------------
+
+This branch will add the yMODEM feature to the application.
+
+TODO:  Ymodem recive file
+YMODEM fiel print formated
+
+Ymodem downlaod fiel to spi flash.
+
+display SPI file contents
+
+25 Oct 2024
+
+
 This  workspace provide the use of Makefile for the Cortex-M3 target.
 
 The project is build into the build folder and all the object files are kept there.
