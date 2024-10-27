@@ -4,12 +4,23 @@ Ymodem Branch
 
 This branch will add the yMODEM feature to the application.
 
-TODO:  Ymodem recive file
-YMODEM fiel print formated
+Updated the Ymodem Application with pritf functions for file infor and dir listing.
 
-Ymodem downlaod fiel to spi flash.
+launching gdb from terminal is workign for some reason.  no need to launch the gdb debug from SoftConsole. previously the make gdb was not workign with M@S external hw reset error
 
-display SPI file contents
+PS C:\jijeesh\github\m2s-fabric-ip> make openocd
+
+followed by 
+
+PS C:\jijeesh\github\m2s-fabric-ip> make debug // in another termianal.
+
+TODO : Download the file contents and directory structure to the SPI Flash memory.
+
+
+27th October 2024
+
+------------------------------------------------------------------------------------------
+
 
 25 Oct 2024
 

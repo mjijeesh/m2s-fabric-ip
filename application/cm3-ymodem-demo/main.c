@@ -205,22 +205,7 @@ static uint32_t file_download(void)
 
     if (file_size > 0) {
 
-        /*
-            // Print file details: name, size, and memory address
-        PRINT_TEXT("File received: \n");
-        PRINT_TEXT("\r\nFile Name:");
-        PRINT_TEXT(file_info.name);
-        PRINT_TEXT("\r\nFile Size:");
-        PRINT_TEXT(file_info.size);
-        PRINT_TEXT("\r\nFile Bytes:");
-        PRINT_DNUM((unsigned int)file_info.bytes);
-        PRINT_TEXT("\r\nFile Location ptr:");
-       // PRINT_XNUM(*(file_info.file_ptr));
-        PRINT_XNUM((uint32_t)(file_info.file_ptr));
-        PRINT_TEXT("\r\nFile Location:");
-        PRINT_XNUM((unsigned int)current_ddr_ptr);
 
-        */
         print_file_header();
         print_file_info(&file_info);
 
@@ -261,13 +246,12 @@ void add_file_to_list(file_t *file_info) {
         file_list.files[file_list.file_count].size[sizeof(file_list.files[file_list.file_count].size) - 1] = '\0'; // Ensure null termination
 
 
-        file_list.files[file_list.file_count].bytes = file_info->bytes; // Copy the size in bytes
+        file_list.files[file_list.file_count].bytes    = file_info->bytes; // Copy the size in bytes
         file_list.files[file_list.file_count].file_ptr = file_info->file_ptr; // Copy the pointer
         file_list.files[file_list.file_count].checksum = file_info->checksum; // Copy the checksum
 
-
         // Increment file count
-       file_list.file_count++;
+        file_list.file_count++;
 
        // Update the DDR pointer for the next file (align to 4-byte boundary)
        current_ddr_ptr += (file_info->bytes + 3) & ~3; // Round size up to nearest 4-byte multiple
@@ -424,26 +408,13 @@ void print_dir(void){
 
     uint8_t *ptr =  (uint8_t *)DDR_DOWNLOAD_BASE_ADDRESS;
 
-PRINT_TEXT("\n---- File List ----\n");
-/* print the file  list header */
-PRINT_TEXT("File#  ");
 print_file_header();
-
 
 // Loop through each file in the list and print details
     for (uint8_t i = 0; i < file_list.file_count; i++) {
         file_t *file = &file_list.files[i]; // Pointer to the current file
-        PRINT_DNUM(i+1);
-        PRINT_TEXT("   ");
-        print_file_info(file);
 
-
-      //PRINT_TEXT(file->name);
-      //PRINT_TEXT(file->size);
-      //PRINT_XNUM( file->bytes);
-      //PRINT_XNUM( (unsigned int)file->file_ptr);
-
-
+        printf("\r%-10d %-30s %-10s 0x%-14X\n",i+1, file->name, file->size, (uint32_t)(file->file_ptr));
 
     }
 
@@ -454,14 +425,7 @@ print_file_header();
 void print_file_info(file_t *file_info)
 {
 
-
-    // Print file details: name, size, and memory address
-       PRINT_TEXT(file_info->name);
-       PRINT_TEXT("   ");
-       PRINT_TEXT(file_info->size);
-       PRINT_TEXT("   ");
-       PRINT_XNUM((uint32_t)(file_info->file_ptr));
-       PRINT_TEXT("   \r\n");
+       printf("\r%-10s %-30s %-10s 0x%-14X\n", 1,file_info->name, file_info->size, (uint32_t)(file_info->file_ptr));
 
 
 }
@@ -479,5 +443,6 @@ void print_file_header(void)
 
 // Function to print the header
 void print_file_header() {
-    printf("%-10s %-30s %-10s %-15s\n", "File #", "Name", "Size", "Location");
+    printf("\r%-10s %-30s %-10s %-15s\n", "File#", "Name", "Size", "Location");
+    printf("\r%s\n", "---------------------------------------------------------------");
 }
