@@ -689,3 +689,5 @@ uint32_t ymodem_receive(uint8_t *buf, uint32_t length, file_t *file_info)
 }
 
 #endif /* SF2BL_COMMS_OPTION == SF2BL_COMMS_YMODEM */
+
+

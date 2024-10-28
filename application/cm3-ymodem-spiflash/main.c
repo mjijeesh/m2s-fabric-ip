@@ -63,6 +63,8 @@ static uint32_t file_download();
 void print_dir(void);
 void print_file_info(file_t *file_info);
 void print_file_header(void);
+void conv_file_info(file_t *file_info , spi_file_t *spi_file_info);
+void print_spi_file_info(spi_file_t *file_info);
 
 /* this is implemented in assembly file under  boot folder */
 void bx_user_code_ddr(void);    // remap to the DDR and jump to the user code
@@ -189,6 +191,7 @@ static uint32_t rx_app_file(uint8_t *dest_address)
 static uint32_t file_download(void)
 {
     uint32_t file_size;
+    spi_file_t spi_file_info ;
     //uint8_t *g_bin_base = (uint8_t *)dest_address;
     uint32_t MAX_FILE_SIZE = 1024 * 1024 * 8; // maximum size of the file to download  is set to  1MB
     file_t file_info; // structure to keep the current downlaoded file info
@@ -218,6 +221,16 @@ static uint32_t file_download(void)
             PRINT_TEXT("File received: \n");
 
         }
+
+
+
+
+    /* add the file info into the api directory */
+
+    conv_file_info(&file_info , &spi_file_info);
+    print_spi_file_info(&spi_file_info);
+
+    spi_add_file_to_directory(&spi_file_info);
 
     //g_image_file.addr     = SPI_FILE_BASE_ADDR;
     //g_image_file.checksum = VALID_KEY;
@@ -270,6 +283,22 @@ void add_file_to_list(file_t *file_info) {
 }
 
 
+//#define FILE_NAME_LENGTH 32
+void conv_file_info(file_t *file_info, spi_file_t *spi_file_info) {
+    // Copy the file name up to the maximum allowed length
+    strncpy(spi_file_info->file_name, file_info->name, MAX_FILE_NAME_LENGTH - 1);
+
+    // Ensure null termination
+    spi_file_info->file_name[MAX_FILE_NAME_LENGTH - 1] = '\0';
+
+    // Copy the file size in bytes
+    spi_file_info->file_size = file_info->bytes;
+
+    // copy the file addr in ddr to be used when copying to spi flash
+
+    spi_file_info->file_addr = file_info->addr;
+}
+
 
 
 
@@ -309,15 +338,22 @@ void menu (void){
                     case 'h':
                         print_help();
                         break;
+                    case 'q':
+                       clear_spi_file_sys();
+                       // spi_init_directory();
+                            break;
                     case 'u':
 
                         //g_file_size = rx_app_file(g_ddr_upload_ptr);
                         g_file_size =  file_download();
+
                         break;
                     case 'L':
 
                             //g_file_size = rx_app_file(g_ddr_upload_ptr);
                            print_dir(); // list teh directory
+
+                           spi_print_directory();
                             break;
                     case 's':
                         PRINT_TEXT("\r\nWriting into the SPI Flash Memory  Location @  ");
@@ -350,14 +386,20 @@ void menu (void){
                         boot_from_spi_flash();
 
 
+
+
                     case 'd':
+                      PRINT_TEXT("\r\n Flash address:");
+                      PRINT_XNUM(spi_addr);
+                      hex_view_spi_flash(SPI_DIR_ROOT_ADDR, 4096);
+                      break;
 
-                        read_spi_flash_dir(&spi_dir );
-                        display_spi_file_info(&spi_dir );
-                        g_file_size = spi_dir.bytes;
-                        hex_view_spi_flash(spi_dir.addr, spi_dir.bytes);
+                       // read_spi_flash_dir(&spi_dir );
+                       // display_spi_file_info(&spi_dir );
+                       // g_file_size = spi_dir.bytes;
+                       // hex_view_spi_flash(spi_dir.addr, spi_dir.bytes);
 
-                       break;
+                      // break;
                     case 'x':
                         if (g_file_size){
                             /*copy the file from downlaod location to boot location */
@@ -426,6 +468,15 @@ void print_file_info(file_t *file_info)
 {
 
        printf("\r%-10s %-30s %-10s 0x%-14X\n", 1,file_info->name, file_info->size, (uint32_t)(file_info->file_ptr));
+
+
+}
+
+
+void print_spi_file_info(spi_file_t *file_info)
+{
+
+       printf("\r%-30s %10u  0x%-8X\n", file_info->file_name, file_info->file_size, (uint32_t)(file_info->file_addr));
 
 
 }

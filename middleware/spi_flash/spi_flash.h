@@ -25,14 +25,6 @@
 //##endif
 
 
-typedef struct
-{
-    uint32_t validity_key;
-    uint32_t spi_content_byte_size;
-    uint32_t spi_content_addr;
-    uint8_t  spi_content_file_name[50];
-} flash_content_t;
-
 
 void bx_user_code_ddr(void);    // remap to the DDR and jump to the user code
 
@@ -108,8 +100,52 @@ enum SPI_FLASH_CMD {
 /**@}*/
 
 #define SPI_FLASH_4K_SIZE   4096
+#define SPI_SECTOR_SIZE  4096
 
 #define BUFFER_SIZE   256
+
+
+#define SPI_MAX_FILES 10
+
+#define SPI_DIR_ROOT_ADDR  0x00000000   // sector 0
+
+#define SPI_FILE_ROOT_ADDR  (SPI_DIR_ROOT_ADDR + SPI_FLASH_4K_SIZE)  // sector 1 onwards
+typedef struct
+{
+    uint32_t validity_key;
+    uint32_t spi_content_byte_size;
+    uint32_t spi_content_addr;
+    uint8_t  spi_content_file_name[50];
+} flash_content_t;
+
+
+
+#define MAX_FILE_NAME_LENGTH 32
+typedef struct {
+    uint8_t     file_name[32];   // File name (max 32 characters)
+    uint32_t    file_size;       // file size in bytes
+    uint32_t    file_addr;       // addr offset in spi flash memory
+    uint32_t    checksum;        // file checksum
+} spi_file_t;
+
+//spi_file_t spi_directory[SPI_MAX_FILES];    // Directory to hold spi file metadata
+
+typedef struct {
+    uint32_t   init_status;        // Number of files currently stored
+    uint8_t    file_count;        // Number of files currently stored
+    spi_file_t files[SPI_MAX_FILES];   // Array of files
+
+
+} spi_dir_t;
+
+spi_dir_t spi_directory;
+
+
+int spi_add_file_to_directory(spi_file_t* file_info);
+void spi_print_directory(void) ;
+void spi_init_directory(void);
+void init_spi_file_sys (void);
+void clear_spi_file_sys (void);
 
 
 

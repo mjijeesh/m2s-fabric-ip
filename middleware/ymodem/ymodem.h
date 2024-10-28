@@ -54,25 +54,29 @@ typedef struct
     uint32_t addr;
     uint8_t  name[FILE_NAME_LENGTH];
     uint32_t checksum;
-} file_t_7;
+} file_t_88;
 
 
 typedef struct {
-    uint8_t     name[32];    // File name (max 32 characters)
-    uint8_t     size[16];    // File size in  string
-    uint32_t bytes;       // file size in bytes
-    uint32_t addr;        // addr as uint32 -- can remove
-    uint8_t *file_ptr;    // Pointer to the file in DDR memory
-    uint32_t checksum;    // file checksum
+    uint8_t     name[FILE_NAME_LENGTH];       // File name (max 32 characters)
+    uint8_t     size[FILE_SIZE_LENGTH];  // file size in string
+    uint32_t    bytes;                         // File size in  bytes
+    uint32_t    addr;                        // addr as uint32 -- can remove
+    uint8_t     *file_ptr;                        // Pointer to the file in DDR memory
+    uint32_t    checksum;                     // file checksum
 } file_t;
 
 
 typedef struct {
+    uint32_t   init_status;    // Number of files currently stored
+    uint8_t    file_count;     // Number of files currently stored
+    uint8_t    *next_ptr;      // pointer to next available location
     file_t files[MAX_FILES];   // Array of files
-    uint8_t file_count;        // Number of files currently stored
-} file_list_t;
+   } file_list_t;
 
 file_list_t file_list;
+
+void file_sys_init (uint8_t * file_ptr);
 
 
 
