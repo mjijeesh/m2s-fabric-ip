@@ -28,7 +28,7 @@ CONFIG_USE_YMODEM          = Y
 
 
 
-USER_FLAGS +=-DMSCC_STDIO_THRU_CORE_UART_APB
+USER_FLAGS +=-DMSCC_STDIO_THRU_CORE_UART_APB 
 
 
 #------------------------------------------------------------

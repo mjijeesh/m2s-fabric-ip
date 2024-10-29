@@ -27,7 +27,6 @@
 #define _YMODEM_H
 
 
-
 #define PACKET_SEQNO_INDEX      (1)
 #define PACKET_SEQNO_COMP_INDEX (2)
 
@@ -42,6 +41,8 @@
 #define FILE_SIZE_LENGTH (16)
 
 #define MAX_FILES 10
+
+
 
 #define DDR_DOWNLOAD_ADDRESS  0xA0200000  // Base address of DDR  file downlaod memory
 #define MAX_DDR_SIZE          0x10000000  // Total size of DDR memory
@@ -77,6 +78,10 @@ typedef struct {
 file_list_t file_list;
 
 void file_sys_init (uint8_t * file_ptr);
+
+
+#define MAX_FILE_NAME_LENGTH 32
+
 
 
 

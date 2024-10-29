@@ -1,6 +1,15 @@
 
 Ymodem- SPI Flash:
 
+29th Oct,2024 : In this v1 of the spi-flash-ymodem-downlaod , following are to be noted
+
+1. downlaoding the fiel directly to the spi flash memory
+2. directory structure is kept to keep track of the files.
+3. maximum 10 files.
+4. may need to work with keeping a global directory structure to avoid code size. currently, every time a diectory look is needed,
+    it has to be fetched from spi flash
+5. next version should implment that optimization
+
 
 This branch adds the spi flash into the Ymodem Application
 Added the SPI Flash directory structure.
@@ -28,7 +37,7 @@ SPI Flash File Count : 2
 | cm3-ymodem-spiflash.bin        |      41.61 | 0x5000         |
 --------------------------------------------------------------------------
 
-29th Oct,2024
+
 Ymodem Branch
 --------------
 
