@@ -76,20 +76,11 @@ extern
 
 
 
-/* SPI Flash directory structure.
- * Now using a single file structure only , this can be expanded to have multiple files with a different
- * structure type later
- */
-
-file_t  spi_dir;
-
-
-
 /*==============================================================================
  * main function.
  */
 
-uint32_t address;
+
 int main()
 {
     uint32_t gpio_in;
@@ -101,20 +92,21 @@ int main()
 
 
 
-    address = 0;
-
-
     hw_init();
 
-    /* initialise the buffer for reading/writing */
-    spi_demo_init_buffers();
+
+
+    /* load the spi_file_sys into the spi_dir structure;*/
+
+     init_spi_file_sys ();
+
 
     /*--------------------------------------------------------------------------
          * Send greeting message over the UART.
          *
     */
 
-        PRINT_TEXT("\n\n\n<< Smartfusion2   SPI Bootloader Demo >>\n\n");
+        PRINT_TEXT("\n\n\n<< Smartfusion2  Ymodem SPI Flash Demo >>\n\n");
 
         print_help();
         display_prompt();
@@ -195,7 +187,7 @@ void menu (void){
                     case 'L':
                     case 'l':
 
-                           spi_print_directory();
+                        spi_print_dir();
                             break;
 
                             /*
@@ -243,7 +235,7 @@ void menu (void){
                       //PRINT_XNUM(spi_addr);
                       //hex_view_spi_flash(SPI_DIR_ROOT_ADDR, 4096);
 
-                      spi_print_directory();
+                      spi_print_dir();
 
                       PRINT_TEXT("\r\n Enter the File index to Display content:");
                       key = uart_getchar();

@@ -43,7 +43,7 @@ uint8_t g_flash_wr_buf[BUFFER_SIZE];
 uint8_t g_flash_rd_buf[BUFFER_SIZE];
 
 /* implmented in ymodem.c */
-uint32_t ymodem_download_spi_flash(uint32_t spi_flash_address,uint32_t length,spi_file_t *file_info);
+uint32_t ymodem_download_file_spi_flash(uint32_t spi_flash_address,uint32_t length,spi_file_t *file_info);
 
 
 // -------------------------------------------------------------------------------------
@@ -215,104 +215,7 @@ void spi_flash_device_info(void){
     print_hex_byte(device_id);
 }
 
-/**********************************************************************//**
- * This function is used to initialise the read and write buffers
- * for the spi flash demo usage..
- * This is a helper function for the demo.
 
- **************************************************************************/
-
-
-void spi_demo_init_buffers (void){
-
-    uint16_t loop_count;
-    const char test_str[] = "****DDR memory content for Testing****";
-
-
-    /*--------------------------------------------------------------------------
-     * Initialize  buffer with binary data using this methods
-    */
-    for(loop_count = 0; loop_count < (BUFFER_SIZE/2); loop_count++)
-    {
-        g_flash_wr_buf[loop_count] = 0xAA;
-        g_flash_rd_buf[loop_count] = 0x00;
-    }
-
-
-    /* below method are used for initialising the buffers with string data */
-    strcpy(g_flash_wr_buf, " This is a Test String for the DDR MEmeory at 0xA0000000");
-    //strncpy (g_bin_base, test_str, sizeof(test_str));
-
-    /* copy the string / data from one buffer to another suign this method */
-    memcpy (g_flash_wr_buf, test_str, sizeof(test_str));
-
-    /* set the 128 location of the buffer with 'j' as default value */
-     memset(g_flash_wr_buf,'j', 128);
-
-    /* copy the string value to the location offset 128 of the buffer */
-    memcpy (&g_flash_wr_buf[128], test_str, sizeof(test_str));
-
-
-    strncpy((uint8_t *)g_flash_wr_buf, "AA55" , sizeof("AA55"));
-
-
-
-}
-
-void update_spi_flash_dir(file_t* file_name ){
-
-    uint32_t spi_dir_addr = SPI_DIR_ROOT_ADDR; // always write to the first sector
-
-    PRINT_TEXT("\r\n Updating the SPI Flash File Directory....");
-
-    spi_flash_global_unprotect();
-
-    PRINT_TEXT("\r\nErasing Sector @ " );
-    PRINT_XNUM(SPI_DIR_ROOT_ADDR);
-
-    spi_flash_erase_4k_block(SPI_DIR_ROOT_ADDR);
-    spi_flash_write(SPI_ROOT_ADDR, (uint8_t *) file_name, sizeof(file_t));
-    PRINT_TEXT("\r\n Programming  sector @ ");
-    PRINT_XNUM(SPI_DIR_ROOT_ADDR);
-
-    PRINT_TEXT("\r\nUpdated the SPI Directory");
-#ifdef DEBUG
-    hex_view_spi_flash(SPI_DIR_ROOT_ADDR, 256);
-    hex_view_spi_flash(SPI_FILE_ROOT_ADDR, 256);
-#endif
-
-}
-
-void read_spi_flash_dir(file_t* spi_dir ){
-    flash_content_t  spi_file;
-    uint32_t spi_dir_addr = SPI_ROOT_ADDR; // always write to the first sector
-
-    spi_flash_read (spi_dir_addr, (uint8_t *) spi_dir, sizeof(file_t));
-
-    display_spi_file_info(spi_dir );
-
-    //PRINT_TEXT("\r\n Updated the SPI Directory");
-
-}
-
-
-
-
-
-
-
-void display_spi_file_info(file_t* spi_file_ptr ){
-
-    PRINT_TEXT("\r\nFile Name : ");
-    PRINT_TEXT(spi_file_ptr->name);
-    PRINT_TEXT("\r\nFile Size : ");
-    PRINT_DNUM(spi_file_ptr->bytes);
-    PRINT_TEXT(" Bytes");
-    PRINT_TEXT("\r\nFile Addr : ");
-    PRINT_XNUM(spi_file_ptr->addr);
-
-
-}
 
 /***************************************************************************//**
  * Read the date from SPI FLASH and compare the same with write buffer.
@@ -379,28 +282,22 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
 
 
- void spi_print_directory(void) {
-     // Buffer to hold the contents of sector zero (4KB)
-     uint8_t buffer[SPI_SECTOR_SIZE];
+ void spi_print_dir(void) {
 
-     // Read sector zero from SPI flash into buffer
-     spi_flash_read(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
-
-     // Cast buffer to directory structure to interpret data
-     spi_dir_t* spi_dir = (spi_dir_t*)buffer;
+     spi_dir_t* spi_dir_ptr =  &spi_dir;
 
      printf("\r\nSPI Flash Directory:\n");
 
-     printf("\rSPI Flash File Count : %d\n",      spi_dir->file_count);
-     printf("\rSPI Flash Next Addr  : 0x%-12X\n", spi_dir->next_addr);
-     printf("\rSPI Flash init flag  : 0x%-12X\n", spi_dir->init_status);
+     printf("\rSPI Flash File Count : %d\n",      spi_dir_ptr->file_count);
+     printf("\rSPI Flash Next Addr  : 0x%-12X\n", spi_dir_ptr->next_addr);
+     printf("\rSPI Flash init flag  : 0x%-12X\n", spi_dir_ptr->init_status);
 
      printf("\r----------------------------------------------------------------------------\n");
      printf("\r| %-4s | %-34s | %-10s | %-12s |\n", "#", "File Name", "Size (KB)", "Addr Offset");
      printf("\r----------------------------------------------------------------------------\n");
 
-     for (int i = 0; i < spi_dir->file_count; i++) {
-         spi_file_t *spi_file = &spi_dir->files[i];  // Pointer to the current file
+     for (int i = 0; i < spi_dir_ptr->file_count; i++) {
+         spi_file_t *spi_file = &spi_dir_ptr->files[i];  // Pointer to the current file
          if (spi_file->file_name[0] != '\0') {       // Check if entry is valid
              printf("\r| %-4d | %-34s  |  %10.2f| 0x%-10X |\n",
                     i + 1,
@@ -416,48 +313,30 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
  /* Add the File entry to the spi_file_sys */
 
- int spi_add_file_to_directory(spi_file_t* file_info) {
-      uint32_t next_addr ; //= SPI_FILE_ROOT_ADDR;  // Start after sector zero (metadata)
+ int spi_add_file_to_dir(spi_file_t* file_info) {
+      uint32_t next_addr ;
 
-      uint8_t buffer[SPI_SECTOR_SIZE];
-
-       spi_dir_t* spi_dir = (spi_dir_t*)buffer;
-       // Read sector zero from SPI flash into buffer
-        spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
-
-
-      /* initialise the spi directory if it is not already done */
-      //init_spi_file_sys();
-
+      spi_dir_t* spi_dir_ptr =  &spi_dir;
 
       // Find the first empty slot or calculate the start address for the new file
       for (uint8_t i = 0; i < SPI_MAX_FILES; i++) {
-          spi_file_t *file = &spi_dir->files[i]; // Pointer to the current file
+          spi_file_t *file = &spi_dir_ptr->files[i]; // Pointer to the current file
 
-          if (file->file_name[0] != '\0') {  // Valid file entry
-              // Calculate the next available address after this file in bytes
-              //next_addr = file->file_addr + file->file_size;
-
-              // Align start_addr to the next sector boundary if necessary
-              //next_addr = (next_addr + SPI_SECTOR_SIZE - 1) & ~(SPI_SECTOR_SIZE - 1);
-              continue;
-          } else {
+          if (file->file_name[0] == '\0') {  // empty slot found
               // Empty entry found, use this slot for the new file entry
-              strncpy(file->file_name, file_info->file_name, sizeof(file->file_name) - 1);
-              file->file_name[sizeof(file->file_name) - 1] = '\0';  // Ensure null-termination
-              file->file_size = file_info->file_size;
-              file->file_addr = file_info->file_addr; // update the current file addr with the value from dir entry
+                strncpy(file->file_name, file_info->file_name, sizeof(file->file_name) - 1);
+                file->file_name[sizeof(file->file_name) - 1] = '\0';  // Ensure null-termination
+                file->file_size = file_info->file_size;
+                file->file_addr = file_info->file_addr; // update the current file addr with the value from dir entry
 
-              spi_dir->file_count++;  // Increment the file count in the directory
+                spi_dir_ptr->file_count++;  // Increment the file count in the directory
 
-              next_addr = (file->file_addr + file->file_size  + SPI_SECTOR_SIZE - 1) & ~(SPI_SECTOR_SIZE - 1);
-              spi_dir->next_addr = next_addr; // this is the addr for next file
+                next_addr = (file->file_addr + file->file_size  + SPI_SECTOR_SIZE - 1) & ~(SPI_SECTOR_SIZE - 1);
+                spi_dir_ptr->next_addr = next_addr; // this is the addr for next file
 
-              // Update the directory on SPI flash
-              spi_flash_write_file (SPI_DIR_ROOT_ADDR, buffer,SPI_SECTOR_SIZE);
-
-
-              return 0;  // Success
+                // Update the directory on SPI flash
+                spi_flash_write_file(SPI_DIR_ROOT_ADDR, (uint8_t *)&spi_dir, sizeof(spi_dir));
+                return 0;  // Success
           }
       }
 
@@ -466,59 +345,57 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
 
 
-/* initialise the File system in SPI Flash Memory */
+/* initialise the File system in SPI Flash Memory and load it in ram for look up */
  void init_spi_file_sys (void){
      uint8_t buffer[SPI_SECTOR_SIZE];
 
-     spi_dir_t* spi_dir = (spi_dir_t*)buffer;
+     spi_dir_t* spi_dir_ptr =  &spi_dir;
 
      // Read sector zero from SPI flash into buffer
       spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
+      memcpy(&spi_dir, buffer, sizeof(spi_dir)); // Load the buffer into the global spi_dir
 
-      if ( spi_dir->init_status != 0xAA55AA33){
+      if ( spi_dir_ptr->init_status != 0xAA55AA33){
 
           memset(buffer, 0x00, SPI_SECTOR_SIZE);  // Clear the directory structure
 
           printf("\rSPI Directory not initialised\n");
           // Set the initialization status
-           spi_dir->init_status = 0xAA55AA33;
+           spi_dir_ptr->init_status = 0xAA55AA33;
 
-           spi_dir->file_count = 0;
-           spi_dir->next_addr = SPI_FILE_ROOT_ADDR; // file storage start address
+           spi_dir_ptr->file_count = 0;
+           spi_dir_ptr->next_addr = SPI_FILE_ROOT_ADDR; // file storage start address
 
-           spi_flash_write_file (SPI_DIR_ROOT_ADDR, buffer,SPI_SECTOR_SIZE);
+           /* update the spi flash with new modifications */
+           spi_flash_write_file(SPI_DIR_ROOT_ADDR, (uint8_t *)&spi_dir, sizeof(spi_dir));
 
 
       } else
 
       {
 
-          printf("\rSPI Directory is Already initialised\n");
+          printf("\rSPI Directory is initialised and loaded\n");
 
       }
  }
 
 
  void clear_spi_file_sys (void){
-      uint8_t buffer[SPI_SECTOR_SIZE];
 
-      spi_dir_t* spi_dir = (spi_dir_t*)buffer;
+      spi_dir_t* spi_dir_ptr =  &spi_dir;
 
-      // Read sector zero from SPI flash into buffer
-       spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
-
-
-
-       memset(buffer, 0x00, SPI_SECTOR_SIZE);  // Clear the directory structure
+      // Clear the SPI directory structure in memory
+          memset(&spi_dir, 0x00, sizeof(spi_dir_t));  // Clear the entire structure
 
 
        // Set the initialization status
-        spi_dir->init_status = 0xAA55AA33;
+        spi_dir_ptr->init_status = 0xAA55AA33;
 
-        spi_dir->file_count = 0;
-        spi_dir->next_addr = SPI_FILE_ROOT_ADDR; // file storage start address
+        spi_dir_ptr->file_count = 0;
+        spi_dir_ptr->next_addr = SPI_FILE_ROOT_ADDR; // file storage start address
 
-        spi_flash_write_file (SPI_DIR_ROOT_ADDR, buffer,SPI_SECTOR_SIZE);
+        /* update the spi flash with new modifications */
+       spi_flash_write_file(SPI_DIR_ROOT_ADDR, (uint8_t *)&spi_dir, sizeof(spi_dir));
 
         printf("\rSPI File System Reinitialized\n");
 
@@ -529,6 +406,7 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
  /* copy the  file from ddr memory to spiflash memory  spi_file_sys, and update the directory */
 
+ /*
  void spi_flash_file_sys_download (spi_file_t * spi_file){
 
      uint8_t buffer[SPI_SECTOR_SIZE];
@@ -539,46 +417,40 @@ void display_spi_file_info(file_t* spi_file_ptr ){
     // Read sector zero from SPI flash into buffer
      spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
 
-    /* read the next_file store location from directory */
+    ///* read the next_file store location from directory
      spi_offset_addr = spi_dir->next_addr;
 
      spi_flash_write_file (spi_offset_addr, (uint8_t *)spi_offset_addr,spi_file->file_size);
 
-     /* update the directory entry with new file info */
+     ///* update the directory entry with new file info
      spi_add_file_to_directory(spi_file);
 
 
  }
+ */
 
 
   uint32_t spi_file_download(void)
  {
      uint32_t file_size;
      spi_file_t spi_file_info ;
+     uint32_t spi_offset_addr;
+     spi_dir_t* spi_dir_ptr =  &spi_dir;
 
      //uint8_t *g_bin_base = (uint8_t *)dest_address;
-     uint32_t MAX_FILE_SIZE = 1024 * 1024 * 8; // maximum size of the file to download  is set to  1MB
-
-
-     uint8_t buffer[SPI_SECTOR_SIZE];
-
-     uint32_t spi_offset_addr;
-
-     spi_dir_t* spi_dir = (spi_dir_t*)buffer;
-     // Read sector zero from SPI flash into buffer
-     spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
+     uint32_t MAX_FILE_SIZE = 8*1024 * 1024 * 8; // maximum size of the file to download  is set to  8MB
 
      /* read the next_file store location from directory */
-     spi_offset_addr = spi_dir->next_addr;
+     spi_offset_addr = spi_dir_ptr->next_addr;
 
      PRINT_TEXT( "\r\n------------------------ Starting YModem file transfer ------------------------\r\n" );
      PRINT_TEXT( "Please select file and initiate transfer on host computer.\r\n" );
 
 
 
-     SysTick_Config(SystemCoreClock/100); // is this needed ?
+     //SysTick_Config(SystemCoreClock/100); // is this needed ?
 
-     file_size = ymodem_download_spi_flash(spi_offset_addr, MAX_FILE_SIZE, &spi_file_info);
+     file_size = ymodem_download_file_spi_flash(spi_offset_addr, MAX_FILE_SIZE, &spi_file_info);
 
 
 
@@ -588,7 +460,7 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
          print_spi_file_info(&spi_file_info);
 
-         spi_add_file_to_directory(&spi_file_info);
+         spi_add_file_to_dir(&spi_file_info);
 
          } else {
              PRINT_TEXT("File received: \n");
@@ -601,16 +473,9 @@ void display_spi_file_info(file_t* spi_file_ptr ){
 
   void spi_file_display(uint8_t index ){
 
-      uint8_t buffer[SPI_SECTOR_SIZE];
+      spi_dir_t* spi_dir_ptr =  &spi_dir;  // point to the spi_dire structure in ram
 
-       uint32_t spi_offset_addr;
-
-       spi_dir_t* spi_dir = (spi_dir_t*)buffer;
-        // Read sector zero from SPI flash into buffer
-       spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
-
-       spi_file_t *spi_file = &spi_dir->files[index-1]; //  1st file is at location '0'0
-
+      spi_file_t *spi_file = &spi_dir_ptr->files[index-1]; //  1st file is at location '0'
 
 
       uint32_t spi_addr = spi_file->file_addr;
@@ -623,11 +488,6 @@ void display_spi_file_info(file_t* spi_file_ptr ){
                           spi_file->file_size / 1024.0,
                           spi_file->file_addr);
       hex_view_spi_flash(spi_addr, size);
-     // spi_flash_read_file(SPI_DIR_ROOT_ADDR, buffer, SPI_SECTOR_SIZE);
-
-
-
-
 
   }
 

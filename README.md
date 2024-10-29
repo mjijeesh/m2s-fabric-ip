@@ -1,6 +1,17 @@
 
 Ymodem- SPI Flash:
 
+29th Oct,2024 : 
+
+
+Optimized the file_sys access. using a ram structure spi_dir to keep the file system.
+only writting into the spi_flash  when a new fiel is added. this reduces  the spi-file read/write access un necessorily.
+ also free up 4K buffer in each of the functions
+
+
+
+
+
 29th Oct,2024 : In this v1 of the spi-flash-ymodem-downlaod , following are to be noted
 
 1. downlaoding the fiel directly to the spi flash memory

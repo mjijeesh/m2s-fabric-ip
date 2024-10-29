@@ -20,15 +20,6 @@
 #endif
 
 
-//##if  (MICROCHIP_SST26VF == 1)
-//##include "bsp/flash/sst26vf/sst26vf.h"
-//##endif
-
-
-//#define MAX_FILE_NAME_LENGTH 32
-
-
-
 
 
 void bx_user_code_ddr(void);    // remap to the DDR and jump to the user code
@@ -147,16 +138,15 @@ typedef struct {
 
 } spi_dir_t;
 
-spi_dir_t spi_directory;
+spi_dir_t spi_dir;
 
 
 
 
 
 
-int spi_add_file_to_directory(spi_file_t* file_info);
-void spi_print_directory(void) ;
-void spi_init_directory(void);
+int spi_add_file_to_dir(spi_file_t* file_info);
+void spi_print_dir(void) ;
 void init_spi_file_sys (void);
 void clear_spi_file_sys (void);
 

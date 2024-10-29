@@ -471,7 +471,7 @@ static int32_t receive_packet(uint8_t *data, int32_t *length)
  *
  */
 /* Returns the length of the file received, or 0 on error: */
-uint32_t ymodem_receive(uint8_t *buf, uint32_t length, file_t *file_info)
+uint32_t ymodem_download_file(uint8_t *buf, uint32_t length, file_t *file_info)
 {
     static uint8_t packet_data[PACKET_1K_SIZE + PACKET_OVERHEAD]; /* Declare as static as 1K is a lot to put on our stack */
     uint8_t file_size[FILE_SIZE_LENGTH + 1];
@@ -698,7 +698,7 @@ uint32_t ymodem_receive(uint8_t *buf, uint32_t length, file_t *file_info)
  */
 /* Returns the length of the file received, or 0 on error: */
 
-uint32_t ymodem_download_spi_flash(uint32_t spi_flash_address,uint32_t length,spi_file_t *file_info)
+uint32_t ymodem_download_file_spi_flash(uint32_t spi_flash_address,uint32_t length,spi_file_t *file_info)
 {
     static uint8_t packet_data[PACKET_1K_SIZE + PACKET_OVERHEAD]; /* Declare as static as 1K is a lot to put on our stack */
 
