@@ -3,8 +3,32 @@ Ymodem- SPI Flash:
 
 
 This branch adds the spi flash into the Ymodem Application
+Added the SPI Flash directory structure.
+Now after downloading the file into the ddr memory , the same file info is added to the spi_dir and update teh same in the sector 0( 4KB)
 
+SPI Flash Directory:
+SPI Flash File Count : 2
+--------------------------------------------------------------------------
+| File Name                      | Size (KB)  | Addr Offset    |
+--------------------------------------------------------------------------
+| cm3-ymodem-spiflash.sym        |      12.35 | 0x1000         |
+| cm3-ymodem-spiflash.bin        |      41.61 | 0x5000         |
+--------------------------------------------------------------------------
 
+File#      Name                           Size       Location
+---------------------------------------------------------------
+1          cm3-ymodem-spiflash.bin        42608      0xA0200000
+
+SPI Flash Directory:
+SPI Flash File Count : 2
+--------------------------------------------------------------------------
+| File Name                      | Size (KB)  | Addr Offset    |
+--------------------------------------------------------------------------
+| cm3-ymodem-spiflash.sym        |      12.35 | 0x1000         |
+| cm3-ymodem-spiflash.bin        |      41.61 | 0x5000         |
+--------------------------------------------------------------------------
+
+29th Oct,2024
 Ymodem Branch
 --------------
 
