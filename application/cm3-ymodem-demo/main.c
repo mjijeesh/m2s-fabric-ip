@@ -402,25 +402,6 @@ void print_help(void) {
 }
 
 
-void print_dir(void){
-// Print the file list
-    int i;
-
-    uint8_t *ptr =  (uint8_t *)DDR_DOWNLOAD_BASE_ADDRESS;
-
-print_file_header();
-
-// Loop through each file in the list and print details
-    for (uint8_t i = 0; i < file_list.file_count; i++) {
-        file_t *file = &file_list.files[i]; // Pointer to the current file
-
-        printf("\r%-10d %-30s %-10s 0x%-14X\n",i+1, file->name, file->size, (uint32_t)(file->file_ptr));
-
-    }
-
-
-
-}
 
 void print_file_info(file_t *file_info)
 {
