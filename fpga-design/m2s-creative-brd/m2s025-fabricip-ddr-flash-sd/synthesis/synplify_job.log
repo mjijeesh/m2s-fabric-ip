@@ -1,0 +1,77 @@
+Synplify Pro (R) Job Log
+Date: 17:24:36    04-Oct-2024
+Install Directory: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 17:24:12
+   Runtime: 24s
+   Executable Run Time: 22 - (Sum of all child executables)
+   Current Working Directory: C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 17:24:12
+      Runtime: 24s
+      Executable Run Time: 22 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 17:24:12
+         Runtime: 18s
+         Executable Run Time: 16 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 17:24:12
+            Runtime: 15s
+            Executable Run Time: 14 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin64\c_hdl.exe
+               Run Directory: C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:24:12
+               Run Time: 15s
+               Executable Run Time: 14 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+            Job: multi_srs_gen
+               executable: bin64\syn_nfilter.exe
+               Run Directory: C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:24:27
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+         Job: premap
+            executable: bin64\m_generic.exe
+            Run Directory: C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:24:27
+            Run Time: 02s
+            Executable Run Time: 2 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+
+      JobFlow: map
+         Run Start Time: 17:24:30
+         Runtime: 06s
+         Executable Run Time: 6 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin64\m_generic.exe
+            Run Directory: C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:24:30
+            Run Time: 06s
+            Executable Run Time: 6 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no

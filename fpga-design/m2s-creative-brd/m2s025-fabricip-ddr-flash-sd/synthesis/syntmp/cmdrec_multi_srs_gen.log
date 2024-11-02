@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  m2s_creative_ddr_top  -multisrs  C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synwork\m2s_creative_ddr_top_comp.srs  -osyn  C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synwork\m2s_creative_ddr_top_mult.srs  -log  C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synlog\m2s_creative_ddr_top_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe -link -top m2s_creative_ddr_top -multisrs ..\synwork\m2s_creative_ddr_top_comp.srs -osyn ..\synwork\m2s_creative_ddr_top_mult.srs -log ..\synlog\m2s_creative_ddr_top_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\m2s_creative_ddr_top_comp.srs|io:i|time:1728042866|size:203083|exec:0|csum:689FB56358A9F5C60BEF101F1AA29983
+file:..\synwork\m2s_creative_ddr_top_mult.srs|io:o|time:1728042867|size:6064|exec:0|csum:
+file:..\synlog\m2s_creative_ddr_top_multi_srs_gen.srr|io:o|time:1728042867|size:1212|exec:0|csum:
+file:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1691490330|size:10452480|exec:1|csum:C2B49D9CC1CC5913A59BA97F5F9B52BC

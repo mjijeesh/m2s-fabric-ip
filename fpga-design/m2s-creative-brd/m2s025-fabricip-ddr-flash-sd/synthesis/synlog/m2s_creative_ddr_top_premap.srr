@@ -1,0 +1,220 @@
+# Fri Oct  4 17:24:27 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: JIJEESH-5300
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 138MB)
+
+Reading constraint file: C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top\synthesis.fdc
+@L: C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top_scck.rpt 
+See clock summary report "C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 184MB)
+
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 184MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 184MB)
+
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance FDDR_PENABLE (in view: work.CoreConfigP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF0_PENABLE (in view: work.CoreConfigP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF1_PENABLE (in view: work.CoreConfigP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF2_PENABLE (in view: work.CoreConfigP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF3_PENABLE (in view: work.CoreConfigP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1613:0:1613:5|Removing sequential instance CUARTI0I (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1613:0:1613:5|Removing sequential instance CUARTI1l (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance full_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance empty_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance full_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance empty_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance full_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance empty_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance full_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":111:0:111:5|Removing sequential instance empty_next_out (in view: CORESPI_LIB.spi_fifo_8s_32s_5_3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":630:0:630:5|Removing sequential instance mtx_spi_data_oen (in view: CORESPI_LIB.spi_chanctrl_Z6(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":630:0:630:5|Removing sequential instance mtx_spi_data_oen (in view: CORESPI_LIB.spi_chanctrl_Z8(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Removing sequential instance mtx_oen (in view: CORESPI_LIB.spi_chanctrl_Z6(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Removing sequential instance mtx_oen (in view: CORESPI_LIB.spi_chanctrl_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist m2s_creative_ddr_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+@W: MT688 :"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":10:0:10:0|No path from master pin (-source) to source of clock m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 due to black box m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST 
+
+
+Clock Summary
+******************
+
+          Start                                                                 Requested     Requested     Clock                         Clock                Clock
+Level     Clock                                                                 Frequency     Period        Type                          Group                Load 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       CLK0_PAD                                                              50.0 MHz      20.000        declared                      default_clkgroup     0    
+1 .         m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                          50.0 MHz      20.000        generated (from CLK0_PAD)     default_clkgroup     751  
+                                                                                                                                                                    
+0 -       m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      12.5 MHz      80.000        declared                      default_clkgroup     109  
+                                                                                                                                                                    
+0 -       m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                      default_clkgroup     31   
+====================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                      Clock     Source                                                                                       Clock Pin                                                                           Non-clock Pin     Non-clock Pin                                                                       
+Clock                                                                 Load      Pin                                                                                          Seq Example                                                                         Seq Example       Comb Example                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK0_PAD                                                              0         CLK0_PAD(port)                                                                               -                                                                                   -                 m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CLK0_PAD_INST.I(IBUF)                        
+m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            751       m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST.GL0(CCC)                                     User_Interfaces_0.spi_flash_0.CORESPI_C0_0.CORESPI_C0_0.USPI.UCC.msrxp_strobe.C     -                 m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                                                                       
+m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      109       m2s_creative_demo_0.ddr_mss_sb_0.ddr_mss_sb_MSS_0.MSS_ADLIB_INST.CLK_CONFIG_APB(MSS_025)     m2s_creative_demo_0.ddr_mss_sb_0.ddr_mss_sb_MSS_0.MSS_ADLIB_INST.CLK_MDDR_APB       -                 m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.un1_FIC_2_APB_M_PCLK.I[0](inv)       
+                                                                                                                                                                                                                                                                                                                                                                       
+m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     31        m2s_creative_demo_0.ddr_mss_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)            m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_ddr_enable_q1.C                 -                 m2s_creative_demo_0.ddr_mss_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+=======================================================================================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 185MB)
+
+Encoding state machine state[2:0] (in view: work.CoreConfigP_Z1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine CUARTlI0l[5:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine CUARTll0[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z6(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z8(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 186MB peak: 186MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 188MB peak: 188MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 189MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct  4 17:24:29 2024
+
+###########################################################]

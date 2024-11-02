@@ -1,0 +1,42 @@
+Software Version: 2023.2.0.8
+Programmer 'E200108CTE' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E200108CTE' : FlashPro5
+Opened 'C:\Git\arch\cortex-m3\fpga-design\m2s-creative-brd\m2s025-fabricip-ddr--flash-sd\designer\m2s_creative_ddr_top\m2s_creative_ddr_top_fp\m2s_creative_ddr_top.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Git/arch/cortex-m3/fpga-design/m2s-creative-brd/m2s025-fabricip-ddr--flash-sd/designer/m2s_creative_ddr_top/m2s_creative_ddr_top.ppd' has been loaded successfully.
+DESIGN : m2s_creative_ddr_top;  CHECKSUM : 462F;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E200108CTE' : Scan Chain...
+Programmer 'E200108CTE' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM
+Programmer 'E200108CTE' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E200108CTE' : device 'M2S025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2S025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2S025' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E200108CTE' : device 'M2S025' : Programming Interface Protocol: JTAG
+programmer 'E200108CTE' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 007e6944
+programmer 'E200108CTE' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : Programming FPGA Array...
+programmer 'E200108CTE' : device 'M2S025' : EXPORT Fabric component digest[256] = d7f2e71accd3685e64e0ada1242e2aeb439a4839049480ca62689569a6f5e0e9
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : EXPORT DSN[128] = a3a83d5eb72272b969a7da10fa8f7951
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : Finished: Tue Oct 22 13:16:19 2024 (Elapsed time 00:00:36)
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Tue Oct 22 13:16:19 2024 (Elapsed time 00:00:36)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Wed May 10 15:19:22 2023
+Project   :  C:\Users\jijeesh\workspace\m2s\fpga-designs\m2s025-creative-brd\m2s_m2s025_ddr_v2022p1
+Component :  CoreTimer_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/work/CoreTimer_C0/CoreTimer_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec.exe
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec.lin
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec_compile.do
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/wave.do
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/test/user_tb.bfm
+
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_package.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/test/testbench.v
+

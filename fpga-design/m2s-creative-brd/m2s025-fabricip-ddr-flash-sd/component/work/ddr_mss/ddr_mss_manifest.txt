@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Tue May 23 14:04:40 2023
+Project   :  C:\Users\jijeesh\workspace\cortex-m3\m3-fabric-ip\fpga-designs\m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1
+Component :  ddr_mss
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/ddr_mss/ddr_mss.v
+

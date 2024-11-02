@@ -1,0 +1,288 @@
+<html><body><samp><pre>
+<!@TC:1728042869>
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: JIJEESH-5300
+
+Implementation : synthesis
+
+# Written on Fri Oct  4 17:24:29 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "m2s_creative_ddr_top"
+Constraint File(s):      "C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 4 issues in 4 out of 13 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+<a name=clockRelationships55></a>Clock Relationships</a>
+*******************
+
+Starting                                                              Ending                                                                |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      |     80.000           |     No paths         |     40.000           |     40.000                           
+m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            |     20.000           |     No paths         |     No paths         |     No paths                         
+m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            |     20.000           |     No paths         |     No paths         |     No paths                         
+m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB      |     20.000           |     No paths         |     No paths         |     No paths                         
+m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0                            |     20.000           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK56></a>Unconstrained Start/End Points</a>
+******************************
+
+p:DEVRST_N
+p:GPIO_0_LED0
+p:GPIO_1_LED1
+p:GPIO_2_SD_CS
+p:GPIO_3_TP_CS
+p:GPIO_4_LCD_CS
+p:GPIO_5_LCD_BL
+p:GPIO_5_TP_IRQ
+p:GPIO_6_LCD_DC
+p:GPIO_9_SW3
+p:MDDR_ADDR[0]
+p:MDDR_ADDR[1]
+p:MDDR_ADDR[2]
+p:MDDR_ADDR[3]
+p:MDDR_ADDR[4]
+p:MDDR_ADDR[5]
+p:MDDR_ADDR[6]
+p:MDDR_ADDR[7]
+p:MDDR_ADDR[8]
+p:MDDR_ADDR[9]
+p:MDDR_ADDR[10]
+p:MDDR_ADDR[11]
+p:MDDR_ADDR[12]
+p:MDDR_ADDR[13]
+p:MDDR_ADDR[14]
+p:MDDR_ADDR[15]
+p:MDDR_BA[0]
+p:MDDR_BA[1]
+p:MDDR_BA[2]
+p:MDDR_CAS_N
+p:MDDR_CKE
+p:MDDR_CLK
+p:MDDR_CLK_N
+p:MDDR_CS_N
+p:MDDR_DM_RDQS[0] (bidir end point)
+p:MDDR_DM_RDQS[0] (bidir start point)
+p:MDDR_DM_RDQS[1] (bidir end point)
+p:MDDR_DM_RDQS[1] (bidir start point)
+p:MDDR_DQS[0] (bidir end point)
+p:MDDR_DQS[0] (bidir start point)
+p:MDDR_DQS[1] (bidir end point)
+p:MDDR_DQS[1] (bidir start point)
+p:MDDR_DQS_N[0] (bidir end point)
+p:MDDR_DQS_N[0] (bidir start point)
+p:MDDR_DQS_N[1] (bidir end point)
+p:MDDR_DQS_N[1] (bidir start point)
+p:MDDR_DQS_TMATCH_0_IN
+p:MDDR_DQS_TMATCH_0_OUT
+p:MDDR_DQ[0] (bidir end point)
+p:MDDR_DQ[0] (bidir start point)
+p:MDDR_DQ[1] (bidir end point)
+p:MDDR_DQ[1] (bidir start point)
+p:MDDR_DQ[2] (bidir end point)
+p:MDDR_DQ[2] (bidir start point)
+p:MDDR_DQ[3] (bidir end point)
+p:MDDR_DQ[3] (bidir start point)
+p:MDDR_DQ[4] (bidir end point)
+p:MDDR_DQ[4] (bidir start point)
+p:MDDR_DQ[5] (bidir end point)
+p:MDDR_DQ[5] (bidir start point)
+p:MDDR_DQ[6] (bidir end point)
+p:MDDR_DQ[6] (bidir start point)
+p:MDDR_DQ[7] (bidir end point)
+p:MDDR_DQ[7] (bidir start point)
+p:MDDR_DQ[8] (bidir end point)
+p:MDDR_DQ[8] (bidir start point)
+p:MDDR_DQ[9] (bidir end point)
+p:MDDR_DQ[9] (bidir start point)
+p:MDDR_DQ[10] (bidir end point)
+p:MDDR_DQ[10] (bidir start point)
+p:MDDR_DQ[11] (bidir end point)
+p:MDDR_DQ[11] (bidir start point)
+p:MDDR_DQ[12] (bidir end point)
+p:MDDR_DQ[12] (bidir start point)
+p:MDDR_DQ[13] (bidir end point)
+p:MDDR_DQ[13] (bidir start point)
+p:MDDR_DQ[14] (bidir end point)
+p:MDDR_DQ[14] (bidir start point)
+p:MDDR_DQ[15] (bidir end point)
+p:MDDR_DQ[15] (bidir start point)
+p:MDDR_ODT
+p:MDDR_RAS_N
+p:MDDR_RESET_N
+p:MDDR_WE_N
+p:SD_SCLK
+p:SD_SDI
+p:SD_SDO
+p:SD_SS
+p:SPI_FLASH_SCLK
+p:SPI_FLASH_SDI
+p:SPI_FLASH_SDO
+p:SPI_FLASH_SS
+p:UART_RXD
+p:UART_TXD
+p:XTL
+
+
+<a name=InapplicableconstraintsCCK57></a>Inapplicable constraints</a>
+************************
+
+(none)
+
+
+<a name=ApplicableConstraintsWithIssuesCCK58></a>Applicable constraints with issues</a>
+**********************************
+
+create_generated_clock -name m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 -multiply_by 4 -divide_by 4 -source [get_pins { m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST.CLK0_PAD }] [get_pins { m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST.GL0 }]
+	@W:MT688:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":10:0:10:0|No path from master pin (-source) to source of clock m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 due to black box m2s_creative_demo_0.ddr_mss_sb_0.CCC_0.CCC_INST
+set_false_path -through [get_pins { m2s_creative_demo_0.ddr_mss_sb_0.ddr_mss_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]
+	@W::"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":16:0:16:0|Timing constraint (through [get_pins { m2s_creative_demo_0.ddr_mss_sb_0.ddr_mss_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_max_delay 0 -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] -to [get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.state[0] }]
+	@W::"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] to [get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.state[0] }]) (max delay 0.000000) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_min_delay -24 -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }]
+	@W::"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }]) (min delay -24.000000) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK59></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+set_false_path -from [get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.MSS_HPMS_READY_int m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] -to [get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":14:0:14:0|expression "[get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.MSS_HPMS_READY_int m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PERST_N_re }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.MSS_HPMS_READY_int
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":14:0:14:0|expression "[get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif0_areset_n_rcosc
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst_i
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif1_areset_n_rcosc
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst_i
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif2_areset_n_rcosc
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst_i
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif3_areset_n_rcosc
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst_i
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1
+set_false_path -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG1_DONE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG2_DONE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PERST_N m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PRDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_RESET_F2M m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_M3_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":15:0:15:0|expression "[get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG1_DONE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG2_DONE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PERST_N m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF*_PRDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_RESET_F2M m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_M3_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG1_DONE
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.CONFIG2_DONE
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[0]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[1]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[2]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[3]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[4]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[5]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[6]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[7]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[8]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[9]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[10]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[11]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[12]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[13]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[14]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[15]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[16]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[17]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[18]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[19]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[20]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[21]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[22]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[23]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[24]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[25]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[26]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[27]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[28]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[29]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[30]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PRDATA[31]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PSEL
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SDIF0_PWRITE
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_M3_RESET
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.SOFT_RESET_F2M
+set_false_path -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.ddr_settled m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_ddr_enable m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif*_core m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_sdif*_enable }]
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":12:0:12:0|expression "[get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.ddr_settled m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_ddr_enable m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif*_core m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_sdif*_enable }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.count_ddr_enable
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.ddr_settled
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif0_core
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif1_core
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif2_core
+		m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.release_sdif3_core
+set_max_delay 0 -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] -to [get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.state[0] }]
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":18:0:18:0|expression "[get_cells { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.state[0] }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.state[0]
+set_min_delay -24 -through [get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }]
+	@N:MF891:"c:/git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/designer/m2s_creative_ddr_top/synthesis.fdc":19:0:19:0|expression "[get_nets { m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[*] m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }]" applies to objects:
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[2]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[3]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[4]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[5]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[6]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[7]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[8]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[9]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[10]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[12]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[13]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[14]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PADDR[15]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[0]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[1]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[2]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[3]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[4]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[5]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[6]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[7]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[8]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[9]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[10]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[11]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[12]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[13]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[14]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[15]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWDATA[16]
+		m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0.FIC_2_APB_M_PWRITE
+
+<a name=LibraryReportCCK60></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

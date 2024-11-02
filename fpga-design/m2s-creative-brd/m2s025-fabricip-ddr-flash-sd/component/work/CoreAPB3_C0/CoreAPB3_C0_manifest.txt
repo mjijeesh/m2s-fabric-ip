@@ -1,0 +1,29 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Wed May 10 15:26:22 2023
+Project   :  C:\Users\jijeesh\workspace\m2s\fpga-designs\m2s025-creative-brd\m2s_m2s025_ddr_v2022p1
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/work/CoreAPB3_C0/CoreAPB3_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/jijeesh/workspace/m2s/fpga-designs/m2s025-creative-brd/m2s_m2s025_ddr_v2022p1/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

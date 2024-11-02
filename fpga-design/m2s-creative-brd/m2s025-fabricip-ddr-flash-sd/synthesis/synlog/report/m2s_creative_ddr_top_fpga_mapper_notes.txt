@@ -1,0 +1,37 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\fabosc_0\ddr_mss_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.ddr_mss_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreconfigp\7.1.100\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance CORECONFIGP_0.paddr[14] (in view: work.ddr_mss_sb(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found counter in view:work.CoreResetP_Z2(verilog) instance count_ddr[13:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core_obfuscated\clock_gen.v":1011:0:1011:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen_0s_0s(verilog) instance genblk1\.CUARTO0[12:0] 
+@N: MO225 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z6(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z6(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z8(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z8(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":262:4:262:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_1s_19s_0s(verilog) instance Count[31:0] 
+@N: MO231 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":211:4:211:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_1s_19s_0s(verilog) instance PreScale[9:0] 
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.DDR_READY_int (in view: work.m2s_creative_ddr_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Removing sequential instance User_Interfaces_0.spi_flash_0.CORESPI_C0_0.CORESPI_C0_0.USPI.UCC.spi_clk_next (in view: work.m2s_creative_ddr_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Removing sequential instance User_Interfaces_0.SD_IF_0.CORESPI_C1_0.CORESPI_C1_0.USPI.UCC.spi_clk_next (in view: work.m2s_creative_ddr_top(verilog)) because it does not drive other instances.
+@N: FP130 |Promoting Net INIT_DONE_int_arst on CLKINT  I_157 
+@N: FP130 |Promoting Net m2s_creative_demo_0.ddr_mss_sb_0.FIC_2_APB_M_PRESET_N_arst on CLKINT  I_158 
+@N: FP130 |Promoting Net m2s_creative_demo_0.ddr_mss_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_159 
+@N: FP130 |Promoting Net User_Interfaces_0.spi_flash_0.CORESPI_C0_0.CORESPI_C0_0.USPI.UCC.un5_resetn_tx_i on CLKINT  I_160 
+@N: FP130 |Promoting Net User_Interfaces_0.SD_IF_0.CORESPI_C1_0.CORESPI_C1_0.USPI.UCC.un1_resetn_tx_i on CLKINT  I_161 
+@N: FP130 |Promoting Net m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_162 
+@N: FP130 |Promoting Net m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_163 
+@N: FP130 |Promoting Net m2s_creative_demo_0.ddr_mss_sb_0.CORERESETP_0.sm0_areset_n_arst on CLKINT  I_164 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock CLK0_PAD with period 20.00ns 
+@N: MT615 |Found clock m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/CLK_CONFIG_APB with period 80.00ns 
+@N: MT615 |Found clock m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0 with period 20.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

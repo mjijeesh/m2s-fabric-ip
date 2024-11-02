@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>m2s_creative_ddr_top</design>
+	<target_verilog>C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,100 @@
+
+                               Synplify Pro (R) 
+
+               Version T-2022.09M-SP2-1 for win64 - Jun 27, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+Hostname:    JIJEESH-5300
+Date:        Fri Oct  4 17:20:01 2024
+Version:     T-2022.09M-SP2-1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log m2s_creative_ddr_top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server ark-1120.tecnomic.lan 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+log file: "C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.srr"
+Running: synthesis in foreground
+
+Running m2s_creative_ddr_top_syn|synthesis
+
+Running Flow: compile (Compile) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:02 2024
+
+Running Flow: compile_flow (Compile Process) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:02 2024
+
+Running: compiler (Compile Input) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:02 2024
+Copied C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synwork\m2s_creative_ddr_top_comp.srs to C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.srs
+
+compiler completed
+# Fri Oct  4 17:20:18 2024
+
+Return Code: 0
+Run Time:00h:00m:15s
+
+Running: multi_srs_gen (Multi-srs Generator) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:18 2024
+
+multi_srs_gen completed
+# Fri Oct  4 17:20:18 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synwork\m2s_creative_ddr_top_mult.srs to C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.srs
+Complete: Compile Process on m2s_creative_ddr_top_syn|synthesis
+
+Running: premap (Premap) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:18 2024
+
+premap completed with warnings
+# Fri Oct  4 17:20:20 2024
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on m2s_creative_ddr_top_syn|synthesis
+
+Running Flow: map (Map) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:20 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on m2s_creative_ddr_top_syn|synthesis
+# Fri Oct  4 17:20:20 2024
+Copied C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\synwork\m2s_creative_ddr_top_m.srm to C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.srm
+
+fpga_mapper completed with warnings
+# Fri Oct  4 17:20:27 2024
+
+Return Code: 1
+Run Time:00h:00m:07s
+Complete: Map on m2s_creative_ddr_top_syn|synthesis
+Complete: Logic Synthesis on m2s_creative_ddr_top_syn|synthesis
+TCL script complete: "m2s_creative_ddr_top_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Fri Oct  4 17:24:41 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S025</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVTTL</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>m2s_creative_ddr_top</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>1315</cell>
+ <cell>27696</cell>
+ <cell>4.75</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>956</cell>
+ <cell>27696</cell>
+ <cell>3.45</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>414</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>72</cell>
+ <cell>138</cell>
+ <cell>52.17</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>66</cell>
+ <cell>138</cell>
+ <cell>47.83</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>3</cell>
+ <cell>65</cell>
+ <cell>4.62</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>4</cell>
+ <cell>34</cell>
+ <cell>11.76</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>0</cell>
+ <cell>31</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>34</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>10</cell>
+ <cell>16</cell>
+ <cell>62.50</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>6</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>1171</cell>
+ <cell>812</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>144</cell>
+ <cell>144</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>1315</cell>
+ <cell>956</cell>
+</row>
+</table>
+<section><name>MSS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Cortex-M3*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eNVM (256KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>TIMER*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>CAN</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>I2C</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>UART</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>USB</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MAC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the MSS</text>
+<text></text>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>13</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>7</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>41</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>18</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>1</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Bidirectional I/O Pairs</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVTTL</cell>
+ <cell> 3.30v</cell>
+ <cell> N/A</cell>
+ <cell> 6</cell>
+ <cell> 14</cell>
+ <cell> 0</cell>
+</row>
+<row>
+ <cell>SSTL18I (Input/Bidirectional)</cell>
+ <cell> 1.80v</cell>
+ <cell> 0.90v</cell>
+ <cell> 1</cell>
+ <cell> 0</cell>
+ <cell> 22</cell>
+</row>
+<row>
+ <cell>SSTL18I (Output)</cell>
+ <cell> 1.80v</cell>
+ <cell> N/A</cell>
+ <cell> 0</cell>
+ <cell> 29</cell>
+ <cell> 0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>712</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>618</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : INIT_DONE_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/INIT_DONE_int_rep_RNI4QV7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>76</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/FIC_2_APB_M_PRESET_N_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/FIC_2_APB_M_PRESET_N_netprop_RNIOF44/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>75</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORECONFIGP_0_APB_S_PCLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST_RNIS18B/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/un1_resetn_tx_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/un1_resetn_tx_RNII8ID/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEPAB/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/un5_resetn_tx_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/un5_resetn_tx_RNI86P5/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_rcosc_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKPIB/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sdif0_areset_n_RNI1MJ6/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>67</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>38</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/Counte</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/OneShotClr_1_RNI4BQA2</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/N_41</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_0_sqmuxa_i_o3</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/N_204</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/iPRDATA29_i</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>67</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>38</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/Counte</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/OneShotClr_1_RNI4BQA2</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/N_41</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_0_sqmuxa_i_o3</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : User_Interfaces_0/N_204</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/iPRDATA29_i</cell>
+</row>
+</table>
+</doc>

@@ -1,0 +1,31 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Mon May 22 15:21:30 2023
+Project   :  C:\Users\jijeesh\workspace\cortex-m3\m3-fabric-ip\fpga-designs\m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1
+Component :  CoreGPIO_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/core/coregpio.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/bfmtovec_compile.do
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coregpio_usertb_apb_master.bfm
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coregpio_usertb_include.bfm
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/wave_vlog.do
+
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coreparameters.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vlog/test/user/testbench.v
+

@@ -1,0 +1,16 @@
+Project Name: rv32_imc_m2s_v0
+Location: C:\ref_designs_2022\rv32-m2s\rv32_imc_m2s_v0
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-VF256
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

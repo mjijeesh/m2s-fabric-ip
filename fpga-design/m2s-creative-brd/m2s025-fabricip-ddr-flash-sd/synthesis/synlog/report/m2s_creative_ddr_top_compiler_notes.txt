@@ -1,0 +1,166 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG347 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG347 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\CCC_0\ddr_mss_sb_CCC_0_FCCC.v":5:7:5:27|Synthesizing module ddr_mss_sb_CCC_0_FCCC in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":22:7:22:17|Synthesizing module CoreConfigP in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":326:7:326:17|Synthesizing module OUTBUF_DIFF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":338:7:338:16|Synthesizing module BIBUF_DIFF in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb_MSS\ddr_mss_sb_MSS.v":9:7:9:20|Synthesizing module ddr_mss_sb_MSS in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":23:7:23:12|Synthesizing module XTLOSC in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\FABOSC_0\ddr_mss_sb_FABOSC_0_OSC.v":5:7:5:29|Synthesizing module ddr_mss_sb_FABOSC_0_OSC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss_sb\ddr_mss_sb.v":9:7:9:16|Synthesizing module ddr_mss_sb in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\ddr_mss\ddr_mss.v":9:7:9:13|Synthesizing module ddr_mss in library work.
+@N: CG775 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreAPB3_C0\CoreAPB3_C0.v":57:7:57:17|Synthesizing module CoreAPB3_C0 in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":23:7:23:40|Synthesizing module CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO in library work.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0.v":153:7:153:17|Synthesizing module CoreGPIO_C0 in library work.
+@N: CG775 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Component CoreTimer not found in library "work" or "__hyper__lib__", but found in library CORETIMER_LIB
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Synthesizing module CoreTimer in library CORETIMER_LIB.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":273:37:273:41|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreTimer_C0\CoreTimer_C0.v":23:7:23:18|Synthesizing module CoreTimer_C0 in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:40|Synthesizing module CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:39|Synthesizing module CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async in library work.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:39|Synthesizing module CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async in library work.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:39|Synthesizing module CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART in library work.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:42|Synthesizing module CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb in library work.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
+@N: CG179 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0.v":31:7:31:20|Synthesizing module CoreUARTapb_C0 in library work.
+@N: CG775 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Component CORESPI not found in library "work" or "__hyper__lib__", but found in library CORESPI_LIB
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CORESPI_C1\CORESPI_C1.v":32:7:32:16|Synthesizing module CORESPI_C1 in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\SD_IF\SD_IF.v":9:7:9:11|Synthesizing module SD_IF in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CORESPI_C0\CORESPI_C0.v":32:7:32:16|Synthesizing module CORESPI_C0 in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\spi_flash\spi_flash.v":9:7:9:15|Synthesizing module spi_flash in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\User_Interfaces\User_Interfaces.v":9:7:9:21|Synthesizing module User_Interfaces in library work.
+@N: CG364 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\m2s_creative_ddr_top\m2s_creative_ddr_top.v":9:7:9:26|Synthesizing module m2s_creative_ddr_top in library work.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=1
+@N: CL134 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=8
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":75:0:75:16|Input BAUD_VAL_FRACTION is unused.
+@N: CL135 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":317:12:317:17|Found sequential shift xhdl1.GEN_BITS with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":317:12:317:17|Found sequential shift xhdl1.GEN_BITS with address depth of 3 words and data bit width of 1.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL201 :"C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":447:4:447:9|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

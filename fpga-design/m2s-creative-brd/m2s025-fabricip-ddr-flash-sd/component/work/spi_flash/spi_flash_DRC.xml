@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>spi_flash</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin CORESPI_C0_0:SPISS[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/spi_flash/pins/CORESPI_C0_0:SPISS</crossprobe>
+  </drc>
+</drcreport>

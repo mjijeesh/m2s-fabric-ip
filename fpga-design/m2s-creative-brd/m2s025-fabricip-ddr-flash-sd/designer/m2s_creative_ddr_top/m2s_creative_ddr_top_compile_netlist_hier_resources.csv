@@ -1,0 +1,31 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,Differential I/O Pairs,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,CAN,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ,XTLOSC
+Primitives/Primitives,1,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/Primitives,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreGPIO_C0_0/CoreGPIO_C0_0/Primitives,12,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/Primitives,167,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreUARTapb_C0_0/CoreUARTapb_C0_0/CUARTlOlI/CUARTIO1/Primitives,27,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreUARTapb_C0_0/CoreUARTapb_C0_0/CUARTlOlI/CUARTO01/Primitives,72,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreUARTapb_C0_0/CoreUARTapb_C0_0/CUARTlOlI/CUARTOO1/Primitives,24,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreUARTapb_C0_0/CoreUARTapb_C0_0/CUARTlOlI/Primitives,6,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/CoreUARTapb_C0_0/CoreUARTapb_C0_0/Primitives,27,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/Primitives,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/Primitives,158,132,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCON/Primitives,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/URF/Primitives,77,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/URXF/Primitives,46,18,36,36,0,0,1,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UTXF/Primitives,53,18,36,36,0,0,1,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/Primitives,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/Primitives,160,130,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCON/Primitives,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/URF/Primitives,83,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/URXF/Primitives,46,18,36,36,0,0,1,0,0,0,0,0,0,0,0,0
+User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UTXF/Primitives,53,18,36,36,0,0,1,0,0,0,0,0,0,0,0,0
+m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/Primitives,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+m2s_creative_demo_0/ddr_mss_sb_0/CORECONFIGP_0/Primitives,54,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/Primitives,34,68,0,0,0,0,0,0,4,0,0,0,0,0,0,0
+m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/Primitives,0,0,0,0,46,3,0,0,2,1,0,0,0,0,0,0

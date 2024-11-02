@@ -1,0 +1,82 @@
+INFO: Reading User SDC file C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\constraint\m2s_creative_ddr_top_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\constraint\io\m2s025-creative-brd.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\constraint\fp\m2s_creative_ddr_top_derived_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 68 fixed I/O macros, 1 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2023.2.0 
+Design: m2s_creative_ddr_top            Started: Fri Oct  4 17:25:17 2024
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 2 seconds
+Improvement              : 2 seconds
+
+Placer completed successfully.
+
+Design: m2s_creative_ddr_top            
+Finished: Fri Oct  4 17:25:37 2024
+Total CPU Time:     00:00:16            Total Elapsed Time: 00:00:20
+Total Memory Usage: 329.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top\m2s_creative_ddr_topStarted: Fri Oct  4 17:25:42 2024
+
+
+Router completed successfully.
+
+Design: C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top\m2s_creative_ddr_top
+Finished: Fri Oct  4 17:25:57 2024
+Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:15
+Total Memory Usage: 897.1 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 3
+  Worst minimum delay slack: -0.044 ns
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1318 | 27696 | 4.76       |
+| DFF           | 956  | 27696 | 3.45       |
+| I/O Register  | 0    | 408   | 0.00       |
+| Logic Element | 1437 | 27696 | 5.19       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  71   | 98.61%     |
+| Placed |  1    | 1.39%      |
++--------+-------+------------+
+

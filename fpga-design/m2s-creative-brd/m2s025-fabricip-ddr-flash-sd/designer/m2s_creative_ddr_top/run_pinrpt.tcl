@@ -1,0 +1,10 @@
+DESIGN=m2s_creative_ddr_top
+DESDIR=C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top
+TARGET_DIR=C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\designer\m2s_creative_ddr_top
+FAM=SmartFusion2
+DIE=PA4M2500_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

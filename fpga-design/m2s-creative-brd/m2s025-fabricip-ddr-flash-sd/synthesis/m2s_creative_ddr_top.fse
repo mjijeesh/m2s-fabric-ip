@@ -1,0 +1,88 @@
+
+fsm_encoding {37447444710} sequential
+
+fsm_state_encoding {37447444710} S0 {00}
+
+fsm_state_encoding {37447444710} S1 {01}
+
+fsm_state_encoding {37447444710} S2 {10}
+
+fsm_registers {37447444710} {state[1]}  {state[0]} 
+
+fsm_encoding {391089410899} onehot
+
+fsm_state_encoding {391089410899} 000 {0000001}
+
+fsm_state_encoding {391089410899} 001 {0000010}
+
+fsm_state_encoding {391089410899} 010 {0000100}
+
+fsm_state_encoding {391089410899} 011 {0001000}
+
+fsm_state_encoding {391089410899} 100 {0010000}
+
+fsm_state_encoding {391089410899} 101 {0100000}
+
+fsm_state_encoding {391089410899} 110 {1000000}
+
+fsm_registers {391089410899} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {1530103014} onehot
+
+fsm_state_encoding {1530103014} CUARTI1ll {000001}
+
+fsm_state_encoding {1530103014} CUARTl1ll {000010}
+
+fsm_state_encoding {1530103014} CUARTOO0l {000100}
+
+fsm_state_encoding {1530103014} CUARTIO0l {001000}
+
+fsm_state_encoding {1530103014} CUARTlO0l {010000}
+
+fsm_state_encoding {1530103014} CUARTOI0l {100000}
+
+fsm_registers {1530103014} {CUARTlI0l[5]}  {CUARTlI0l[4]}  {CUARTlI0l[3]}  {CUARTlI0l[2]}  {CUARTlI0l[1]}  {CUARTlI0l[0]} 
+
+fsm_encoding {1487108713} sequential
+
+fsm_state_encoding {1487108713} 00 {00}
+
+fsm_state_encoding {1487108713} 01 {01}
+
+fsm_state_encoding {1487108713} 10 {10}
+
+fsm_state_encoding {1487108713} 11 {11}
+
+fsm_registers {1487108713} {CUARTll0[1]}  {CUARTll0[0]} 
+
+fsm_encoding {2141604162} onehot
+
+fsm_state_encoding {2141604162} MTX_IDLE1 {000001}
+
+fsm_state_encoding {2141604162} MTX_IDLE2 {000010}
+
+fsm_state_encoding {2141604162} MTX_MOTSTART {000100}
+
+fsm_state_encoding {2141604162} MTX_SHIFT1 {001000}
+
+fsm_state_encoding {2141604162} MTX_SHIFT2 {010000}
+
+fsm_state_encoding {2141604162} MTX_END {100000}
+
+fsm_registers {2141604162} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 
+
+fsm_encoding {2141604161} onehot
+
+fsm_state_encoding {2141604161} MTX_IDLE1 {000001}
+
+fsm_state_encoding {2141604161} MTX_IDLE2 {000010}
+
+fsm_state_encoding {2141604161} MTX_MOTSTART {000100}
+
+fsm_state_encoding {2141604161} MTX_SHIFT1 {001000}
+
+fsm_state_encoding {2141604161} MTX_SHIFT2 {010000}
+
+fsm_state_encoding {2141604161} MTX_END {100000}
+
+fsm_registers {2141604161} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 

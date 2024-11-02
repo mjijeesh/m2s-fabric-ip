@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Fri Oct  4 17:23:31 2024
+Project   :  C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard
+Component :  m2s_creative_ddr_top
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/component/work/m2s_creative_ddr_top/m2s_creative_ddr_top.v
+
+Stimulus files for all Simulation tools:
+    C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/component/work/m2s_creative_ddr_top/subsystem.bfm
+    C:/Git/arch/cortex-m3/fpga-design/m3_m2s025_fabricip_ddr_flash_sdcard/component/work/m2s_creative_ddr_top/subsystem.bfm
+

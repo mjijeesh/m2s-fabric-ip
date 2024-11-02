@@ -1,0 +1,33 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       10 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     9 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    712    0      0      'm2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    75     0      0      'm2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST_RNIS18B' 
+    31     0      0      'm2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      618    0      'm2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/INIT_DONE_int_rep_RNI4QV7' 
+    0      76     0      'm2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/FIC_2_APB_M_PRESET_N_netprop_RNIOF44' 
+    0      26     0      'User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/un1_resetn_tx_RNII8ID' 
+    0      26     0      'User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/un5_resetn_tx_RNI86P5' 
+    0      26     0      'm2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEPAB' 
+    0      17     0      'm2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKPIB' 
+    0      12     0      'm2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sdif0_areset_n_RNI1MJ6' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

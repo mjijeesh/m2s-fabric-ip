@@ -1,0 +1,31 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Mon May 22 15:24:10 2023
+Project   :  C:\Users\jijeesh\workspace\cortex-m3\m3-fabric-ip\fpga-designs\m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1
+Component :  CORESPI_C1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/work/CORESPI_C1/CORESPI_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec.exe
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec.lin
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec_compile.do
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/mti/user_tb.bfm
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/mti/wave.do
+
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_package.v
+    C:/Users/jijeesh/workspace/cortex-m3/m3-fabric-ip/fpga-designs/m3_m2s025_fabricip_ddr_flash_sdcard_v20221p1/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/test/user/testbench.v
+

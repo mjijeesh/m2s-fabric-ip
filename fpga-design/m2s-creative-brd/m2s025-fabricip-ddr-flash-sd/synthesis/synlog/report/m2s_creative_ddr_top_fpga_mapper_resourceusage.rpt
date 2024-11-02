@@ -1,0 +1,49 @@
+Resource Usage Report for m2s_creative_ddr_top 
+
+Mapping to part: m2s025vf400std
+Cell usage:
+CCC             1 use
+CLKINT          10 uses
+MSS_025         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+XTLOSC          1 use
+CFG1           10 uses
+CFG2           233 uses
+CFG3           279 uses
+CFG4           518 uses
+
+Carry cells:
+ARI1            116 uses - used for arithmetic functions
+ARI1            15 uses - used for Wide-Mux implementation
+Total ARI1      131 uses
+
+
+Sequential Cells: 
+SLE            812 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 74
+I/O primitives: 69
+BIBUF          18 uses
+BIBUF_DIFF     2 uses
+INBUF          7 uses
+OUTBUF         41 uses
+OUTBUF_DIFF    1 use
+
+
+Global Clock Buffers: 10
+
+Total LUTs:    1171
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  812 + 144 + 0 + 0 = 956;
+Total number of LUTs after P&R:  1171 + 144 + 0 + 0 = 1315;
+

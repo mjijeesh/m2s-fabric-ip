@@ -1,0 +1,216 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+Date: Fri Oct  4 17:24:41 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVTTL          |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+---------------------------------------------------------------------------------------------------------+
+| Topcell | m2s_creative_ddr_top                                                                                    |
+| Format  | Verilog                                                                                                 |
+| Source  | C:\Git\arch\cortex-m3\fpga-design\m3_m2s025_fabricip_ddr_flash_sdcard\synthesis\m2s_creative_ddr_top.vm |
++---------+---------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1315 | 27696 | 4.75       |
+| DFF                       | 956  | 27696 | 3.45       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 72   | 138   | 52.17      |
+| -- Single-ended I/O       | 66   | 138   | 47.83      |
+| -- Differential I/O Pairs | 3    | 65    | 4.62       |
+| RAM64x18                  | 4    | 34    | 11.76      |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 10   | 16    | 62.50      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 1    | 1     | 100.00     |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1171 | 812 |
+| RAM64x18 Interface Logic | 144  | 144 |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1315 | 956 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 5      | 3    |
+| 6      | 2    |
+| 7      | 2    |
+| 9      | 2    |
+| 11     | 1    |
+| 14     | 2    |
+| 33     | 1    |
+| Total  | 13   |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 7            | 0           | 0               |
+| Output I/O                           | 41           | 0           | 0               |
+| Bidirectional I/O                    | 18           | 0           | 0               |
+| Differential Input I/O Pairs         | 0            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 2            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                  | Vddi   | Vref   | Input | Output | Bidirectional |
++-------------------------------+--------+--------+-------+--------+---------------+
+| LVTTL                         |  3.30v |  N/A   |  6    |  14    |  0            |
+| SSTL18I (Input/Bidirectional) |  1.80v |  0.90v |  1    |  0     |  22           |
+| SSTL18I (Output)              |  1.80v |  N/A   |  0    |  29    |  0            |
++-------------------------------+--------+--------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                   |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| 712    | INT_NET | Net   : m2s_creative_demo_0_FIC_0_CLK                                                                  |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/CCC_0/GL0_INST/U0_RGB1                                        |
+|        |         | Source: NETLIST                                                                                        |
+| 618    | INT_NET | Net   : INIT_DONE_int_arst                                                                             |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/INIT_DONE_int_rep_RNI4QV7/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                        |
+| 76     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/FIC_2_APB_M_PRESET_N_arst                                     |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/FIC_2_APB_M_PRESET_N_netprop_RNIOF44/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                        |
+| 75     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORECONFIGP_0_APB_S_PCLK                                      |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST_RNIS18B/U0_RGB1               |
+|        |         | Source: NETLIST                                                                                        |
+| 31     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                   |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                                        |
+| 26     | INT_NET | Net   : User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/un1_resetn_tx_i                   |
+|        |         | Driver: User_Interfaces_0/SD_IF_0/CORESPI_C1_0/CORESPI_C1_0/USPI/UCC/un1_resetn_tx_RNII8ID/U0_RGB1     |
+|        |         | Source: NETLIST                                                                                        |
+| 26     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEPAB/U0_RGB1            |
+|        |         | Source: NETLIST                                                                                        |
+| 26     | INT_NET | Net   : User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/un5_resetn_tx_i               |
+|        |         | Driver: User_Interfaces_0/spi_flash_0/CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/un5_resetn_tx_RNI86P5/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                        |
+| 17     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_rcosc_Z                             |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKPIB/U0_RGB1               |
+|        |         | Source: NETLIST                                                                                        |
+| 12     | INT_NET | Net   : m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sm0_areset_n_arst                                |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/CORERESETP_0/sdif0_areset_n_RNI1MJ6/U0_RGB1                   |
+|        |         | Source: NETLIST                                                                                        |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                            |
++--------+---------+---------------------------------------------------------------------------------+
+| 73     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[4]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 67     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[2]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 65     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[3]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 38     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[5]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 33     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn_Z                |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn                  |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/Counte                  |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/OneShotClr_1_RNI4BQA2   |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON_Y     |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON       |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa_Z      |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa        |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/N_41                    |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_0_sqmuxa_i_o3   |
+| 30     | INT_NET | Net   : User_Interfaces_0/N_204                                                 |
+|        |         | Driver: User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/iPRDATA29_i |
++--------+---------+---------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                            |
++--------+---------+---------------------------------------------------------------------------------+
+| 73     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[4]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 67     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[2]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 65     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[3]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 38     | INT_NET | Net   : m2s_creative_demo_0_FIC_0_AMBA_MASTER_PADDR[5]                          |
+|        |         | Driver: m2s_creative_demo_0/ddr_mss_sb_0/ddr_mss_sb_MSS_0/MSS_ADLIB_INST        |
+| 33     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn_Z                |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEn                  |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/Counte                  |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/OneShotClr_1_RNI4BQA2   |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON_Y     |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/LoadEnReg_RNICBON       |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa_Z      |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_1_sqmuxa        |
+| 32     | INT_NET | Net   : User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/N_41                    |
+|        |         | Driver: User_Interfaces_0/CoreTimer_C0_0/CoreTimer_C0_0/DataOut_0_sqmuxa_i_o3   |
+| 30     | INT_NET | Net   : User_Interfaces_0/N_204                                                 |
+|        |         | Driver: User_Interfaces_0/CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/iPRDATA29_i |
++--------+---------+---------------------------------------------------------------------------------+
+
