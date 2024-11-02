@@ -24,7 +24,7 @@
 //#define DEBUG
 
 #ifndef DDR_BOOT_BASE_ADDR
-#define DDR_BOOT_BASE_ADDR 0x20000000
+#define DDR_BOOT_BASE_ADDR 0xA0080000
 #endif
 
 
@@ -49,6 +49,7 @@ uint32_t ymodem_download_file_spi_flash(uint32_t spi_flash_address,uint32_t leng
 // -------------------------------------------------------------------------------------
 // SPI flash driver functions
 // -------------------------------------------------------------------------------------
+
 
 
 /**********************************************************************//**

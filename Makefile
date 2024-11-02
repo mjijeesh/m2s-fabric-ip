@@ -2,7 +2,7 @@
 
 # cm3-systick-blinky, cm3-coretimer-blinky,cm3-systick-delay,cm3-spiflash-demo,cm3-coreuart-ymodem
 #TARGET   ?= cm3-coreuart-printf-v5
-TARGET   ?= cm3-ymodem-spiflash
+TARGET   ?= cm3-ymodem-bootloader
 BOARD    ?= m2s-creative-brd
 
 # need the below to enable printf funtions via coreuart
